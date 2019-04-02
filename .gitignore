@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+# Standard Jekyll Stuff
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# Precompiled Headers
-*.gch
-*.pch
+# Also seems to occur in the wild, related to Jekyll in our setup
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+.bundle
+vendor
 
-# Fortran module files
-*.mod
-*.smod
+# Needed for emacs users
+*~
+\#*\#
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# For vi users
+*.swp
 
-# Executables
-*.exe
-*.out
-*.app
+# For MacOS
+*/.DS_Store
+.DS_Store
