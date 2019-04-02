@@ -8,6 +8,8 @@ title: "CS 16: Problem Solving with Computers -I , Spring 2019, Kharitonova"
 
 All course announcements are on [Piazza](https://piazza.com/class/).
 
+You can use a shortcut url: [tinyurl.com/cs16s19ykk](http://tinyurl.com/cs16s19ykk).
+
 {% include collapse-button.html label="Information" id="info-list" %}
 <div class="collapse" id="info-list">
  <div class="card card-body">
