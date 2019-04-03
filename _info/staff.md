@@ -39,6 +39,14 @@ ready: true
   <i> "Hi everyone! My name is Surya and I'm a first-year CE major. My gender pronouns are he, his and him. I'm excited to meet you all this winter quarter and help to further your programming skills. C++ might seem a little daunting at first, but don't let this stop you; I'm here to help you excel in the course, so ask away! In my spare time, I enjoy cooking, taking walks around campus, making terrible jokes (ask at your own expense!), and playing ping pong at the Santa Rosa Residence Hall. :)  " </i>
   </td>
 </tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Surya-Pugal.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Qinghang Hong (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi! My name is Qinghang Hong and I'm second-year CS major. It is my first time tutoring in CS classes and I am looking forward to helping you all to succeed in CS16 and C++. I started my freshman year as a math major and eventually switched into Computer Science. Feel free to ask me questions about major switching if you are considering it.  I am interested in web development and machine learning outside of class. I am part of programming group working on a WeChat MiniProgram at CSA (Chinese Student Association). In my free time, I enjoy playing and watching basketball a lot. I am also a big Stephen Curry fan!    " </i>
+  </td>
+</tr>
 </table>
 
 # CS16 S19 Office / Open Lab Hours
