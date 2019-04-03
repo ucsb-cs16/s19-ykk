@@ -46,6 +46,12 @@ ready: true
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Xingbu Qin, I'm a 1st-year CS major. It's glad to see you in CS 16, and I will be here to help you in any way I can so you can master the material and expand your skills in coding :D I love answering questions, so if you have anything, from pointer diagrams, CS major progression, or how to install Android 9.0 on your Samsung S4, I'll be glad to answer everything. For hobbies, I used to shoot skeet competitively, and I still play RTS games that are older than I am." </i>
   </td>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Matthew-ho.png"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Matthew Ho (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general. Don't be afraid to email me at matthewho -at- ucsb.edu" </i>
+  </td>
 </tr>
 </table>
 
