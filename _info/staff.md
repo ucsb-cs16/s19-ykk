@@ -31,6 +31,16 @@ ready: true
   <i> "Hi, my name is Diego Segundo and I’m a 4th year computer science major originally from Huntington Beach California. I first was introduced to coding in high school and was drawn towards the creative aspect of coding and how there are so many different ways to solve one problem. For the last couple years I have worked as a web developer at the Daily Nexus (which is a school newspaper here at ucsb). I originally started mentoring in the spring of last year, and think that it is a great program that provides undergraduates with an extra opportunity to help them understand the course material. So far I have mentored for CS8 and CS56 (both for Professor Conrad). Outside of school my hobbies include playing basketball and surfing. This is my first quarter mentoring for cs16 and I am really looking forward to it!" </i>
   </td>
 </tr>
+
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Kevin-Heffernan.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Kevin Heffernan (Kevin)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hey, my name is Kevin Heffernan and I am a 4th year computer science major born in the San Francisco Bay. I was first introduced to coding when I was seven becasue I was attracted to the idea of being able to create my own video games. In my free time I like to read F. Scott Fitzgerald, surf, and watch the sun set. I am easy to talk to and patient. I am here to help, so do not hesitate to ask me questions. In the past year, I have tutored independently for CS 8 and CS 16. This is my first quarter mentoring, and cannot wait to meet all of you!" </i>
+  </td>
+</tr>
+
 <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Surya-Pugal.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
