@@ -32,7 +32,7 @@ In an abstract view, a computer can be divided into 5 hardware components
    * The is your RAM (random-access memory), ROM (read-only memory), etc.
    * The main memory is volatile, meaning that data is lost when the computer powers down
 5. Secondary memory
-   * This is your storage, like hard drives/SSDs
+   * This is your storage, like hard drives/SSDs, but can also be in the form of a USB drive or a floppy disk
    * Secondary memory is significantly slower, but is non-volatile: the data is saved even when the computer is off
   
 This method to divide a computer into theses 5 parts is known as the von Neumann architecture
