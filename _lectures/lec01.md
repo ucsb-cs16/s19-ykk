@@ -23,17 +23,17 @@ A computer can be divided into two major parts, hardware and software
 
 In an abstract view, a computer can be divided into 5 hardware components
 1. Input devices
-  * This is your keyboard, mouse, microphone, touchscreen, anything that you input data to the computer
+   * This is your keyboard, mouse, microphone, touchscreen, anything that you input data to the computer
 2. Output devices
-  * This is your monitor, speakers, anything that the computer outputs data to
+   * This is your monitor, speakers, anything that the computer outputs data to
 3. Processor
-  * The CPU. This is the brain of the computer, and it's where calculations are getting done
+   * The CPU. This is the brain of the computer, and it's where calculations are getting done
 4. Main memory
-  * The is your RAM (random-access memory), ROM (read-only memory), etc.
-  * The main memory is volatile, meaning that data is lost when the computer powers down
+   * The is your RAM (random-access memory), ROM (read-only memory), etc.
+   * The main memory is volatile, meaning that data is lost when the computer powers down
 5. Secondary memory
-  * This is your storage, like hard drives/SSDs
-  * Secondary memory is significantly slower, but is non-volatile: the data is saved even when the computer is off
+   * This is your storage, like hard drives/SSDs
+   * Secondary memory is significantly slower, but is non-volatile: the data is saved even when the computer is off
   
 This method to divide a computer into theses 5 parts is known as the von Neumann architecture
 
