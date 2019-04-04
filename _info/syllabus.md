@@ -167,9 +167,9 @@ The rest of this page details the policies that will be enforced in the Winter 2
 
 ## Grade breakdown by evaluation component
 Grades will be assigned using the following weighted components:
-* Quizzes and participation: 5%
-* Homeworks: 10%
-* Lab assignments: 25%
+* Quizzes and participation: 2%
+* Homeworks: 8%
+* Lab assignments: 30%
 * Midterm Exams: 30%
 * Final Examination : 30%
 
