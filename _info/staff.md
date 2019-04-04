@@ -13,7 +13,7 @@ ready: true
   <h3> Course instructor: Yekaterina Kharitonova (Prof. K)</h3>
   Preferred Pronouns: She, Her, Hers<br/>
   <i> "I am looking forward to getting to know you and helping you explore the world of C++ programming. </i><br/>
-  <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/> 
+  <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/>
   ykk-class+cs16s19~at~cs.ucsb.edu (replace ~at~ with an @).<br/>
   <i>My office hours time and location are shown below."</i><br/>
   </td>
@@ -45,6 +45,14 @@ ready: true
   <h3> Xingbu Qin (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Xingbu Qin, I'm a 1st-year CS major. It's glad to see you in CS 16, and I will be here to help you in any way I can so you can master the material and expand your skills in coding :D I love answering questions, so if you have anything, from pointer diagrams, CS major progression, or how to install Android 9.0 on your Samsung S4, I'll be glad to answer everything. For hobbies, I used to shoot skeet competitively, and I still play RTS games that are older than I am." </i>
+  </td>
+</tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/margaret-schmit.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Margaret Schmit (Tutor)</h3>
+    Preferred Pronouns: She, Her, Hers<br/>
+  <i> "Hello! I'm a fourth-year CS major originally from Palo Alto, CA. I'm really excited to be tutoring for CS 16! When I'm not coding, I like to hike, play guitar, and read. I'm also involved in the Society of Women Engineers and Phi Sigma Rho, the sorority for women in STEM on campus. Additionally, I can help with any questions you might have about C++, progressing through the major, or getting involved on campus. "</i>
   </td>
 </tr>
 </table>
