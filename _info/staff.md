@@ -52,7 +52,7 @@ ready: true
   <img src="/s19-ykk/info/mentorPhotos/Xingbu-Qin.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Ben Ye (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. My gender pronouns are he, his and him. I went into college little to no prior coding experience so I can definitely relate to many people who may have trouble picking up the first steps in coding. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep." </i>
+  <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience so I can definitely relate to many people who may have trouble picking up the first steps in coding. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep." </i>
   </td>
 </tr>
 </table>
