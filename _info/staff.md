@@ -47,6 +47,14 @@ ready: true
   <i> "Hi everyone! My name is Xingbu Qin, I'm a 1st-year CS major. It's glad to see you in CS 16, and I will be here to help you in any way I can so you can master the material and expand your skills in coding :D I love answering questions, so if you have anything, from pointer diagrams, CS major progression, or how to install Android 9.0 on your Samsung S4, I'll be glad to answer everything. For hobbies, I used to shoot skeet competitively, and I still play RTS games that are older than I am." </i>
   </td>
 </tr>
+  <tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Xingbu-Qin.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Ben Ye (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. My gender pronouns are he, his and him. I went into college little to no prior coding experience so I can definitely relate to many people who may have trouble picking up the first steps in coding. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep." </i>
+  </td>
+</tr>
 </table>
 
 # CS16 S19 Office / Open Lab Hours
