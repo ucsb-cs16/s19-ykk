@@ -44,7 +44,7 @@ ready: true
   <img src="/s19-ykk/info/mentorPhotos/Surya-Pugal.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Qinghang Hong (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi! My name is Qinghang Hong and I'm second-year CS major. It is my first time tutoring in CS classes and I am looking forward to helping you all to succeed in CS16 and C++. I started my freshman year as a math major and eventually switched into Computer Science. Feel free to ask me questions about major switching if you are considering it.  I am interested in web development and machine learning outside of class. I am a part of programming group working on a WeChat MiniProgram at CSA (Chinese Student Association). In my free time, I enjoy playing and watching basketball a lot. I am also a big Stephen Curry fan!    " </i>
+  <i> "Hi! My name is Qinghang Hong and I'm a second-year CS major. It is my first time tutoring in CS classes and I am looking forward to helping you all to succeed in CS16 and C++. I started my freshman year as a math major and eventually switched into Computer Science. Feel free to ask me questions about major switching if you are considering it.  I am interested in web development and machine learning outside of class. I am a part of programming group working on a WeChat MiniProgram at CSA (Chinese Student Association). In my free time, I enjoy playing and watching basketball a lot. I am also a big Stephen Curry fan!    " </i>
   </td>
 </tr>
 </table>
