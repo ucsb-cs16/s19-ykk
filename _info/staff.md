@@ -49,7 +49,7 @@ ready: true
 </tr>
   <tr>
   <td>
-  <img src="/s19-ykk/info/mentorPhotos/Xingbu-Qin.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <img src="/s19-ykk/info/mentorPhotos/Ben-Ye.png"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Ben Ye (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience, so I can definitely relate to people who may have trouble picking up the first steps in coding with C++. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep. I really like to eat food and I go to the gym sometimes." </i>
