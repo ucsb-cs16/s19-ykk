@@ -47,6 +47,14 @@ ready: true
   <i> "Hi everyone! My name is Xingbu Qin, I'm a 1st-year CS major. It's glad to see you in CS 16, and I will be here to help you in any way I can so you can master the material and expand your skills in coding :D I love answering questions, so if you have anything, from pointer diagrams, CS major progression, or how to install Android 9.0 on your Samsung S4, I'll be glad to answer everything. For hobbies, I used to shoot skeet competitively, and I still play RTS games that are older than I am." </i>
   </td>
 </tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Christopher-Alsheikh.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Christopher Alsheikh (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hello! My name is Christopher Alsheikh, and I'm currently in my third year as a CS undergrad. I'm hoping to be a helpful resource for you all so that you can get the most out your CS 16 experience. I've thoroughly enjoyed my experience so far as an undergrad in CS, so I'm excited to extend this experience to you all. Other than staring at computer screens, I like to spend my days playing my guitar and listening to music. Ideally, I want to make sure you all get the technical help you need so that you can pursue your hobbies as well!" </i>
+  </td>
+</tr>
 </table>
 
 # CS16 S19 Office / Open Lab Hours
