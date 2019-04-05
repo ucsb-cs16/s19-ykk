@@ -172,20 +172,21 @@ The link below is a very useful guide to learn fundamental "basic eight" command
 
 
 Here are some additional helpful commands in Vim (these are all during the Command Mode)
+
 	* `dd` deletes the line the cursor is on
-		* a number x before `dd` deletes x lines from the cursor
+		- a number x before `dd` deletes x lines from the cursor
 	* `p` pastes after the cursor of whatever is copied
-		* `P` pastes before the cursor
+		- `P` pastes before the cursor
 	* `yy` copies an entire line the curson is on
-		* a number x before `yy` copies x lines from the cursor
+		- a number x before `yy` copies x lines from the cursor
 	* `%` finds next occurance (of the letter where your cursor is)
-		* `d%` deletes everything between the current letter of the cursor and the next occurance of that letter
+		- `d%` deletes everything between the current letter of the cursor and the next occurance of that letter
 	* `gg` goes to the 1st line of the file
 	* `G` goes to the last line of the file
 	* `u` undo (similar to ctrl + z or cmd + z on Word/Google Docs)
 	* `v` visual mode, this mode highlights the text you want to copy
-		* `shift + v` visual line mode, copies 1 horizontal line at a time
-		* `ctrl + v` visual block mode, copies 1 vertical line at a time
+		- `shift + v` visual line mode, copies 1 horizontal line at a time
+		- `ctrl + v` visual block mode, copies 1 vertical line at a time
 
 
 # Writing, compiling and running a C++ program (hello world) program
