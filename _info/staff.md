@@ -39,6 +39,14 @@ ready: true
   <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general. Don't be afraid to email me at matthewho -at- ucsb.edu" </i>
   </td>
 </tr>
+  <tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Qinghang-Hong.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Qinghang Hong (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi! My name is Qinghang Hong and I'm a second-year CS major. It is my first time tutoring in CS classes and I am looking forward to helping you all to succeed in CS16 and C++. I started my freshman year as a math major and eventually switched into Computer Science. Feel free to ask me questions about major switching if you are considering it.  I am interested in web development and machine learning outside of class. I am a part of programming group working on a WeChat MiniProgram at CSA (Chinese Student Association). In my free time, I enjoy playing and watching basketball a lot. I am also a big Stephen Curry fan!    " </i>
+  </td>
+</tr>
 <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Peter-Master.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
@@ -85,7 +93,6 @@ ready: true
   <h3> Ben Ye (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience, so I can definitely relate to people who may have trouble picking up the first steps in coding with C++. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep. I really like to eat food and I go to the gym sometimes." </i>
-
   </td>
 </tr>
 </table>
