@@ -28,7 +28,7 @@ Mathematics 3A or 2A with a grade of C or better (may be taken concurrently), CS
     ISBN:   9780133591743 (2015) / 9780134448282 (2018)
 
 
-The computing platform for this course is Fedora and is hosted on the CSIL machines. Students find it convenient to use their own computer for the course. If you do not have adequate access to a personal computer, we encourage you to use the College of Engineering CSIL Labs. More information not he following pages:
+The computing platform for this course is Fedora and is hosted on the CSIL machines. Students find it convenient to use their own computer for the course. If you do not have adequate access to a personal computer, we encourage you to use the College of Engineering CSIL Labs. More information on the following pages:
 [Instructional Labs](https://doc.engr.ucsb.edu/display/EPK/Instructional+Labs) and [Where are the ECI Labs?](https://doc.engr.ucsb.edu/pages/viewpage.action?pageId=3342535)
 
 	* Computer Science Teaching Lab (cstl)  in Phelps 3525   (cstl-00  through cstl-35)
@@ -38,13 +38,13 @@ The computing platform for this course is Fedora and is hosted on the CSIL machi
 
 ## Support
 
-You are not alone in this course; the teaching staff are here to support you as you learn the material. It is expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. For online questions, use [Piazza](https://piazza.com/class). We will also hold office hours and open lab hours for in-person discussions. See more information [here](https://ucsb-cs16.github.io/w19/info/openlab).
+You are not alone in this course; the teaching staff are here to support you as you learn the material. It is expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. For online questions, use [Piazza](https://piazza.com/class). We will also hold office hours and open lab hours for in-person discussions. See more information [here](https://ucsb-cs16.github.io/s19/info/staff).
 
 ## Diversity and Inclusiveness
 
-I strive to create an environment in which students from diverse backgrounds and perspectives can be well-served in this course, where students' learning needs can be addressed both in and out of class, and where the diversity that the students bring to this class is viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.
+We (the instructor and the mentors) strive to create an environment in which students from diverse backgrounds and perspectives can be well-served in this course, where students' learning needs can be addressed both in and out of class, and where the diversity that the students bring to this class is viewed as a resource, strength, and benefit. It is our intent to present materials and activities that are respectful of diversity: gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.
 
-I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please, don't hesitate to talk to me about it. Help me create a welcoming, inclusive atmosphere that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including gender identity and expression, sexual orientation, disability, neuro(a)typicality, physical appearance, age, race, socioeconomic status, ethnicity, nationality, culture, or religion (or lack thereof)).
+We (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class/section (by anyone) that made you feel uncomfortable, please, don't hesitate to talk to me about it. Help us create a welcoming, inclusive atmosphere that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including gender identity and expression, sexual orientation, disability, neuro(a)typicality, physical appearance, age, race, socioeconomic status, ethnicity, nationality, culture, or religion (or lack thereof)).
 
 (Inspired by and adopted from [Mine Çetinkaya-Rundel](http://www2.stat.duke.edu/courses/Spring18/Sta199) and [Hacker Hours](https://hackerhours.org/policies.html)).
 
@@ -53,7 +53,7 @@ I (like many people) am still in the process of learning about diverse perspecti
 
 UCSB provides academic accommodations to students with disabilities. Students with disabilities are responsible for ensuring that the Disabled Students Program (DSP) is aware of their disabilities and for providing DSP with appropriate documentation. DSP is located at 2120 Student Resource Building and serves as the campus liaison regarding issues and regulations related to students with disabilities. The DSP staff works in an advisory capacity with a variety of campus departments to ensure that equal access is provided to all disabled students. If you have a disability that requires accommodation in this class, please go see the DSP very early on in the quarter. I will only honor these types of requests for accommodation via the DSP. More information about the DSP is found here: <http://dsp.sa.ucsb.edu>
 
-[Back to Top](#top){: data-ajax="false"}
+[Back to Top](#top)
 
 ## What this course is about <a name="about"></a>
 
@@ -153,44 +153,44 @@ You cannot learn to swim, play guitar, or paint from a textbook or a lecture. Yo
 The same is true of programming. Programming is not a series of facts to be memorized—you cannot &quot;cram&quot; for a computer science exam. You must practice, practice, practice. Here are some additional tips on what you can do instead of cramming: [Why You Cram for Exams (and How to Stop)](https://www.scotthyoung.com/blog/2018/12/24/why-cram) and [How to Enjoy Studying](https://www.scotthyoung.com/blog/2018/11/23/enjoy-studying).
 
 
-[Back to Top](#top){: data-ajax="false"}
+[Back to Top](#top)
 
 
 # Course policies <a name="policies"></a>
 
 ## Disclaimer
 
-The rest of this page details the policies that will be enforced in the Winter 2019 offering of this course. These policies are subject to change throughout the remainder of the course, at the judgement of the course staff (with a potential announcement on Piazza).
+The rest of this page details the policies that will be enforced in the **Spring 2019** offering of this course. These policies are subject to change throughout the remainder of the course, at the judgement of the course staff (with a potential announcement on Piazza).
 
 
 # Grading <a name="grading"></a>
 
 ## Grade breakdown by evaluation component
 Grades will be assigned using the following weighted components:
-* Quizzes and participation: 2%
-* Homeworks: 8%
-* Lab assignments: 30%
+* Quizzes and participation: 5%
+* Homeworks: 10%
+* Lab assignments: 25%
 * Midterm Exams: 30%
 * Final Examination : 30%
 
-This course moves quickly. So attendance is very important. We’ll sometimes cover two or even three chapters in a given week. We need to go at that pace, because during the last week of the quarter, you can’t really start anything new, because there isn’t time to put it into practice with programming assignments. If you don’t put it into practice, you aren’t very likely to learn it in any way that is going to stick with you.
+This course moves quickly. So attendance is very important. We'll sometimes cover two or even three chapters in a given week. We need to go at that pace, because during the last week of the quarter, you can't really start anything new, because there isn't time to put it into practice with programming assignments. If you don't put it into practice, you aren't very likely to learn it in any way that is going to stick with you.
 
 
 ## Graded components <a name="moreabout"></a>
 
 There are six components to this course, each of which has a special job to do:
 <ul>
-  <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential. The reading assignments can be found in each homework assignment. Occasionally, we might have brief, **in-class quizzes** to augment the homeworks. If you are tardy or are not present during the lecture, it will count as a zero for that quiz. In lieu of makeup quizzes, the lowest two quiz scores will be dropped (i.e., if you miss a quiz, you'll receive a 0, and it will be one of the scores that will be dropped). <br />
+  <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential. The reading assignments can be found in each homework assignment and on the course website. Occasionally, we might have brief, **in-class quizzes** to augment the homeworks. If you are tardy or are not present during the lecture, it will count as a zero for that quiz. In lieu of makeup quizzes, the lowest two quiz scores will be dropped (i.e., if you miss a quiz, you'll receive a 0, and it will be one of the scores that will be dropped). <br />
     <br />
   </li>
   <li><strong>(2) Homework (lowest *two* are dropped)</strong> <br /> 
-  Homeworks are typically submitted online individually. The homeworks are practice for the exams. Each student must submit each homework independently, but are allowed to discuss problems with the course staff *only*. These are typically pencil/paper type problems, though sometimes you'll need access to a computer to solve them. If you don't have reliable access to a computer at home (or in your dorm), please plan your schedule so that you can spend time in the CSIL computer lab between classes.<br />
+  Homeworks are typically submitted individually. The homeworks are practice for the exams. Each student must submit each homework independently, but are allowed to discuss problems with the course staff *only*. These are typically pencil/paper type problems, though sometimes you'll need access to a computer to solve them. If you don't have reliable access to a computer at home (or in your dorm), please plan your schedule so that you can spend time in the CSIL computer lab between classes.<br />
     <br />
-    Homework assignments can be completed on paper (print the homework, fill it out, and then digitize it) or electronically (print the homework to PDF, fill it out by adding text or "writing" on the PDF). If you miss submitting your homework by the deadline, it will count as a missed homework (the lowest scores will be dropped). Please do not submit it to the instructor in class or office hours. You may not have someone else turn in your homework for you (that will be considered academic dishonesty).<br />
+    Homework assignments will be completed on paper. If you miss submitting your homework by the deadline, it will count as a missed homework (the lowest scores will be dropped). The instructions on the homework will specify how to turn it in (likely, before the lecture time or during the lab).<br />
     <br />
   </li>
 
-  <li><strong>(3) Programming Assignments (Labs) (lowest score is dropped)</strong>—Programming assignments (also called labs) are given once a week. Weekly labs are a required part of the course. You can work on them during the lab session, especially, since you can easily ask for help during that time. We do not expect you to complete the entire assignment during that time, so you can finish them on your own time outside of lab. You must however, read the assignment and attempt the parts that you can do with little assistance as soon as the assignment is released. The assumption is that you at the very least read the assignment *before coming to your section*. Labs will typically involve pair programming, which is described later in this syllabus.<br />
+  <li><strong>(3) Programming Assignments (Labs) (lowest score is dropped)</strong>—Programming assignments (also called labs) are given once a week. Weekly labs are a required part of the course. You can work on them during the lab session, especially, since you can easily ask for help during that time. We do not expect you to complete the entire assignment during that time, so you can finish them on your own time outside of lab. You must however, read the assignment and attempt the parts that you can do with little assistance as soon as the assignment is released. The assumption is that you at the very least read the assignment *before coming to your section*. <br />
 	We will be taking attendance during labs. **It is your responsibility to make sure that you sign the attendance sheet**. Even if you are present in the lab but did not sign-in, you will receive a 0 for the attendance for that lab. Signing-in for another person is considered as a violation of academic integrity (i.e., cheating) and are grounds for receiving a 0 for that entire lab. To accommodate unforeseen circumstances, you have one “sick-day/personal day” per student, per quarter: this means that missing a lab just once during the entire quarter will not affect your grade.
     <br />
   </li>
@@ -210,12 +210,12 @@ There are six components to this course, each of which has a special job to do:
         </ul>
   </li>
 
-<li><strong>(5) Participation</strong>&mdash;Lectures are designed to be interactive, so come prepared with questions. Additionally, participating by answering or clarifying questions on Piazza is highly encouraged. Pair programming is another way that you are participating in this course. I expect everyone to be reliable, prepared to work and to follow the proper pair-programming rules. Disrespectful, unprofessional, and otherwise inappropriate behavior can be grounds for receiving a zero for participation in this course. 
+<li><strong>(5) Participation</strong>&mdash;Lectures are designed to be interactive, so come prepared with questions. Additionally, participating by answering or clarifying questions on Piazza is highly encouraged. Pair programming is another way that you might be participating in this course. I expect everyone to be reliable, prepared to work and to follow the proper pair-programming rules. _Disrespectful, unprofessional, and otherwise inappropriate behavior can be grounds for receiving a zero for participation in this course._
     <br />
     <br />
 </li>
 
-<li><strong>(6) Exams</strong>&mdash;There are three exams in this course— two midterms and a final. Unless you have accommodations as determined by the university and approved by the instructor, you must take the midterms and the final at the dates and times provided on the course calendar. **No Makeup Exam** will be given for the final exam. Please check your course schedule and make sure that you have no conflicts with these exams. If you have a conflict with either exam, please post a private note on Piazza visible to Instructors before the end of the **second week of classes**.</li>
+<li><strong>(6) Exams</strong>&mdash;There are three exams in this course— two midterms and a final. Unless you have accommodations as determined by the university and approved by the instructor, you must take the midterms and the final at the dates and times provided on the course calendar. **No Makeup Exam** will be given for the final exam. Please check your course schedule and make sure that you have no conflicts with these exams. If you have a conflict with either exam, please post a private note on Piazza visible to Instructors _before the end of the **second week of classes**._</li>
 
 </ul>
 
@@ -236,7 +236,7 @@ If you miss a class, you miss the opportunity for the points on the in-class act
 
 **There is no make-up**, except for excused absences that are arranged with and agreed to by the instructor **in advance**, for official UCSB activities.
 
-In rare cases, if there is a documented family emergency, documented extended illness, documented required court appearance, or other situation beyond the students' control (with documentation) the instructor may extend an assignment deadline, entirely at the instructor's discretion—but this is **not** a guarantee or a right.
+In rare cases, if there is a documented family emergency, documented extended illness, documented required court appearance, or other situation beyond the students' control (with appropriate documentation) the instructor may extend an assignment deadline, entirely at the instructor's discretion—but this is **not** a guarantee or a right.
 
 
 ## Grade assignment policy
@@ -279,13 +279,13 @@ In rare cases, if there is a documented family emergency, documented extended il
     <td>Below 60</td>
 
 </table>
-<p><strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
+<p><strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
 <p><strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)</p>
 
 <p><strong><em>Everything</em> is cumulative—that's just how CS is.</strong></p>
 <p>Finally—note that just as in a math class, everything we do builds on all the work that came before. So, <em>everything</em> is <em>cumulative</em>—so, you can't afford to miss any classes unless absolutely necessary. Miss two lectures in a 10-week two-lecture per week course, and you've already skipped exactly 10% of the course&mdash;it wouldn't be surprising if your performance (i.e., final grade) in the course dipped by a similar amount.</p>
 
-[Back to Top](#top){: data-ajax="false"}
+[Back to Top](#top)
 
 # About Collaboration
 
@@ -316,22 +316,6 @@ The emphasis on collaboration in this course does not necessarily extend to othe
 *    Please be sure you understand each instructor's policy on collaboration carefully, and don't assume it will be the same as that from previous courses.
 *    And, finally, be sure to review the UCSB Academic Honesty Policy. You should read and understand the UCSB policy on academic honesty listed below. You should also understand that I take academic honesty and personal integrity very seriously, and will do my best to uphold and enforce this UCSB policy.
 
-### About pair programming
-
-Most of the programming work in this course will be done using a style of programming known as "pair programming". This is where two people (in rare cases, three) work together at the same terminal to solve a programming problem.
-
-It is similar, in some ways, to having a "lab partner" in a Biology, Chemistry or Physics course. One student is the "driver", who controls the keyboard and mouse. The other is the "navigator", who observes, asks questions, suggests solutions, and thinks about slightly longer-term strategies. The two programmers switch roles about every 20 minutes. The resulting work of pair programming nearly always outshines that of the solitary programmer, with pairs producing **better code in less time**.
-
-For the assignments where pair programming is used, it is required, not optional. In addition to pair programming is a real-world skill that is highly valued by employers, there is also evidence in the scientific literature that it improves student learning and, thus, helps you get better grades.
-
-To learn the "do’s and don'ts" of pair programming and to see pairs in action, view this entertaining video (it takes less than 10 minutes):
-<http://bit.ly/pair-programming-video>
-
-[More guidelines for pair programming.](/w19/info/pair-programming)
-
-The most important rule of pair programming is that you must **work together, co-located, on the same part of the assignment at the same time**. Splitting up the work on an assignment is considered cheating.
-
-
 ## UCSB Policy on Academic Honesty<a name="AH"></a>
 
 It is expected that students attending the University of California understand and subscribe to the ideal of academic integrity, and are willing to bear individual responsibility for their work. Any work (written or otherwise) submitted to fulfill an academic requirement must represent a student’s original work. Any act of academic dishonesty, such as cheating or plagiarism, will subject a person to University disciplinary action. Using or attempting to use materials, information, study aids, or commercial "research" services not authorized by the instructor of the course constitutes cheating. Representing the words, ideas, or concepts of another person without appropriate attribution is plagiarism. Whenever another person’s written work is utilized, whether it be a single phrase or longer, quotation marks must be used and sources cited. Paraphrasing another’s work, i.e., borrowing the ideas or concepts and putting them into one's "own" words, must also be acknowledged. Although a person's state of mind and intention will be considered in determining the University response to an act of academic dishonesty, this in no way lessens the responsibility of the student.
@@ -344,6 +328,6 @@ Each student is responsible for knowing and abiding by UCSB's policies on Academ
 
 Rather than copying someone else's work, ask for help. You are not alone in this course! The course staff is here to help you succeed. We expect that you will work with integrity and with respect for other members of the class, just as the course staff will work with integrity and with respect for you.
 
-[Back to Top](#top){: data-ajax="false"}
+[Back to Top](#top)
 
-Last major revision: Jan 15, 2019
+Last major revision: April 4, 2019
