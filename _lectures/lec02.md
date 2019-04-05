@@ -27,7 +27,11 @@ lecture_date: 2019-04-04
 	- mkdir
 	- cd
 * Relative path vs. absolute path (important for mv, cp, mkdir, cd)
-
+* There are also some shortcuts to typing in the terminal
+	- `Ctrl + a` moves the cursor to the start of the line
+	- `Ctrl + e` moves the cursor to the end of the line
+	- `Ctrl + z` while in an application, suspends the app, puts it in the background, and exits back to the terminal
+	- `Ctrl + c` similar to `Ctrl + z`, but aborts an application instead
 
 # Basic Unix Commands
 
@@ -87,8 +91,17 @@ goes to the directory above the current one
 `cd ~`
 goes to the home directory
 
+`cd -`
+goes to the previous directory
+
+`cat [name]`
+displays the specified file in the terminal
+
 `./[name]`
 used to execute a compiled program
+
+`clear`
+used to empty text in the terminal
 
 
 # Directory Navigation in Linux
@@ -156,6 +169,22 @@ used to execute a compiled program
 
 The link below is a very useful guide to learn fundamental "basic eight" commands in Vim:
 <https://ucsb-cs16.github.io/topics/vim_basic_eight>
+
+Here are some additional helpful commands in Vim (these are all during the Command Mode)
+	- `dd` deletes the line the cursor is on
+		* a number x before `dd` deletes x lines from the cursor
+	- `p` pastes after the cursor of whatever is copied
+		* `P` pastes before the cursor
+	- `yy` copies an entire line the curson is on
+		* a number x before `yy` copies x lines from the cursor
+	- `%` finds next occurance (of the letter where your cursor is)
+		* `d%` deletes everything between the current letter of the cursor and the next occurance of that letter
+	- `gg` goes to the 1st line of the file
+	- `G` goes to the last line of the file
+	- `u` undo (similar to ctrl + z or cmd + z on Word/Google Docs)
+	- `v` visual mode, this mode highlights the text you want to copy
+		* `shift + v` visual line mode, copies 1 horizontal line at a time
+		* `ctrl + v` visual block mode, copies 1 vertical line at a time
 
 
 # Writing, compiling and running a C++ program (hello world) program
