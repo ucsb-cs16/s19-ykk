@@ -23,6 +23,22 @@ ready: true
 ## CS 16 Mentor profiles
 
 <table style="width:90%">
+  <tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Kevin-Heffernan.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Kevin Heffernan (Kevin)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hey, my name is Kevin Heffernan and I am a 4th year computer science major born in the San Francisco Bay. I was first introduced to coding when I was seven becasue I was attracted to the idea of being able to create my own video games. In my free time I like to read F. Scott Fitzgerald, surf, and watch the sun set. I am easy to talk to and patient. I am here to help, so do not hesitate to ask me questions. In the past year, I have tutored independently for CS 8 and CS 16. This is my first quarter mentoring, and cannot wait to meet all of you!" </i>
+  </td>
+</tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Matthew-ho.png"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Matthew Ho (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general. Don't be afraid to email me at matthewho -at- ucsb.edu" </i>
+  </td>
+</tr>
 <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Peter-Master.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
@@ -39,16 +55,6 @@ ready: true
   <i> "Hi, my name is Diego Segundo and I’m a 4th year computer science major originally from Huntington Beach California. I first was introduced to coding in high school and was drawn towards the creative aspect of coding and how there are so many different ways to solve one problem. For the last couple years I have worked as a web developer at the Daily Nexus (which is a school newspaper here at ucsb). I originally started mentoring in the spring of last year, and think that it is a great program that provides undergraduates with an extra opportunity to help them understand the course material. So far I have mentored for CS8 and CS56 (both for Professor Conrad). Outside of school my hobbies include playing basketball and surfing. This is my first quarter mentoring for cs16 and I am really looking forward to it!" </i>
   </td>
 </tr>
-
-<tr>
-  <td>
-  <img src="/s19-ykk/info/mentorPhotos/Kevin-Heffernan.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
-  <h3> Kevin Heffernan (Kevin)</h3>
-    Preferred Pronouns: He, Him, His<br/>
-  <i> "Hey, my name is Kevin Heffernan and I am a 4th year computer science major born in the San Francisco Bay. I was first introduced to coding when I was seven becasue I was attracted to the idea of being able to create my own video games. In my free time I like to read F. Scott Fitzgerald, surf, and watch the sun set. I am easy to talk to and patient. I am here to help, so do not hesitate to ask me questions. In the past year, I have tutored independently for CS 8 and CS 16. This is my first quarter mentoring, and cannot wait to meet all of you!" </i>
-  </td>
-</tr>
-
 <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Surya-Pugal.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
@@ -57,7 +63,7 @@ ready: true
   <i> "Hi everyone! My name is Surya and I'm a first-year CE major. My gender pronouns are he, his and him. I'm excited to meet you all this winter quarter and help to further your programming skills. C++ might seem a little daunting at first, but don't let this stop you; I'm here to help you excel in the course, so ask away! In my spare time, I enjoy cooking, taking walks around campus, making terrible jokes (ask at your own expense!), and playing ping pong at the Santa Rosa Residence Hall. :)  " </i>
   </td>
 </tr>
-  <tr>
+<tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Xingbu-Qin.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Xingbu Qin (Tutor)</h3>
