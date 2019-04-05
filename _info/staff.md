@@ -13,7 +13,7 @@ ready: true
   <h3> Course instructor: Yekaterina Kharitonova (Prof. K)</h3>
   Preferred Pronouns: She, Her, Hers<br/>
   <i> "I am looking forward to getting to know you and helping you explore the world of C++ programming. </i><br/>
-  <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/> 
+  <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/>
   ykk-class+cs16s19~at~cs.ucsb.edu (replace ~at~ with an @).<br/>
   <i>My office hours time and location are shown below."</i><br/>
   </td>
@@ -26,7 +26,7 @@ ready: true
   <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Kevin-Heffernan.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
-  <h3> Kevin Heffernan (Kevin)</h3>
+  <h3> Kevin Heffernan (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hey, my name is Kevin Heffernan and I am a 4th year computer science major born in the San Francisco Bay. I was first introduced to coding when I was seven becasue I was attracted to the idea of being able to create my own video games. In my free time I like to read F. Scott Fitzgerald, surf, and watch the sun set. I am easy to talk to and patient. I am here to help, so do not hesitate to ask me questions. In the past year, I have tutored independently for CS 8 and CS 16. This is my first quarter mentoring, and cannot wait to meet all of you!" </i>
   </td>
@@ -49,18 +49,26 @@ ready: true
 </tr>
 <tr>
   <td>
-  <img src="/s19-ykk/info/mentorPhotos/Diego-Segundo.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
-  <h3> Diego Segundo (Tutor)</h3>
-    Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi, my name is Diego Segundo and I’m a 4th year computer science major originally from Huntington Beach California. I first was introduced to coding in high school and was drawn towards the creative aspect of coding and how there are so many different ways to solve one problem. For the last couple years I have worked as a web developer at the Daily Nexus (which is a school newspaper here at ucsb). I originally started mentoring in the spring of last year, and think that it is a great program that provides undergraduates with an extra opportunity to help them understand the course material. So far I have mentored for CS8 and CS56 (both for Professor Conrad). Outside of school my hobbies include playing basketball and surfing. This is my first quarter mentoring for cs16 and I am really looking forward to it!" </i>
-  </td>
-</tr>
-<tr>
-  <td>
   <img src="/s19-ykk/info/mentorPhotos/Surya-Pugal.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Surya Pugal (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Surya and I'm a first-year CE major. My gender pronouns are he, his and him. I'm excited to meet you all this winter quarter and help to further your programming skills. C++ might seem a little daunting at first, but don't let this stop you; I'm here to help you excel in the course, so ask away! In my spare time, I enjoy cooking, taking walks around campus, making terrible jokes (ask at your own expense!), and playing ping pong at the Santa Rosa Residence Hall. :)  " </i>
+  </td>
+</tr>
+  <tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/margaret-schmit.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Margaret Schmit (Tutor)</h3>
+    Preferred Pronouns: She, Her, Hers<br/>
+  <i> "Hello! I'm a fourth-year CS major originally from Palo Alto, CA. I'm really excited to be tutoring for CS 16! When I'm not coding, I like to hike, play guitar, and read. I'm also involved in the Society of Women Engineers and Phi Sigma Rho, the sorority for women in STEM on campus. Additionally, I can help with any questions you might have about C++, progressing through the major, or getting involved on campus. "</i>
+  </td>
+</tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Diego-Segundo.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Diego Segundo (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, my name is Diego Segundo and I’m a 4th year computer science major originally from Huntington Beach California. I first was introduced to coding in high school and was drawn towards the creative aspect of coding and how there are so many different ways to solve one problem. For the last couple years I have worked as a web developer at the Daily Nexus (which is a school newspaper here at ucsb). I originally started mentoring in the spring of last year, and think that it is a great program that provides undergraduates with an extra opportunity to help them understand the course material. So far I have mentored for CS8 and CS56 (both for Professor Conrad). Outside of school my hobbies include playing basketball and surfing. This is my first quarter mentoring for cs16 and I am really looking forward to it!" </i>
   </td>
 </tr>
 <tr>
@@ -77,6 +85,7 @@ ready: true
   <h3> Ben Ye (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience, so I can definitely relate to people who may have trouble picking up the first steps in coding with C++. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep. I really like to eat food and I go to the gym sometimes." </i>
+
   </td>
 </tr>
 </table>
