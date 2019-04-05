@@ -25,6 +25,14 @@ ready: true
 <table style="width:90%">
 <tr>
   <td>
+  <img src="/s19-ykk/info/mentorPhotos/Peter-Master.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Peter Master (TA)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, my name is Peter Master and I'm a 4th year Computer Science BS/MS student from Walnut Creek, California. I had almost no coding experience before college, but I was inspired by the problem solving and interesting concepts that programming involved and the unmatched power to create and create at scale with little overhead that programming offers. I've interned at Google in Mountain View and a couple local start-ups, and I'm working on developing a sequential proof of work algorithm. I took a gap year to pursue technical-based financial market trading full time. I'm involved with the technology management program at UCSB, and I enjoy reading books and blogs about cognitive biases, risk, gamification, product, and best practices. I also enjoy weightlifting, writing, fasting, Chess, PC games, and playing tennis, basketball, and soccer. I'm looking forward to working with you all as a TA and hope that you can find some enjoyment, interest, and maybe even inspiration in the material as I did."</i>
+  </td>
+</tr>
+<tr>
+  <td>
   <img src="/s19-ykk/info/mentorPhotos/Diego-Segundo.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Diego Segundo (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
