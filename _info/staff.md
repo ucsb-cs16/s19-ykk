@@ -14,7 +14,7 @@ ready: true
   Preferred Pronouns: She, Her, Hers<br/>
   <i> "I am looking forward to getting to know you and helping you explore the world of C++ programming. </i><br/>
   <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/>
-  ykk-class+cs16s19~at~cs.ucsb.edu (replace ~at~ with an @).<br/>
+  ykk-class+cs16s19 @cs.ucsb.edu (remove the space before @).<br/>
   <i>My office hours time and location are shown below."</i><br/>
   </td>
 </tr>
@@ -23,6 +23,14 @@ ready: true
 ## CS 16 Mentor profiles
 
 <table style="width:90%">
+  <tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Christopher-Alsheikh.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Christopher Alsheikh (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hello! My name is Christopher Alsheikh, and I'm currently in my third year as a CS undergrad. I'm hoping to be a helpful resource for you all so that you can get the most out your CS 16 experience. I've thoroughly enjoyed my experience so far as an undergrad in CS, so I'm excited to extend this experience to you all. Other than staring at computer screens, I like to spend my days playing my guitar and listening to music. Ideally, I want to make sure you all get the technical help you need so that you can pursue your hobbies as well!" </i>
+  </td>
+</tr>
   <tr>
   <td>
   <img src="/s19-ykk/info/mentorPhotos/Kevin-Heffernan.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
