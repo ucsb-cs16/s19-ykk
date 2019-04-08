@@ -103,6 +103,14 @@ ready: true
   <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience, so I can definitely relate to people who may have trouble picking up the first steps in coding with C++. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep. I really like to eat food and I go to the gym sometimes." </i>
   </td>
 </tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Keqian-Li.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Keqian Li (TA)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, this is Keqian Li and I'm a 3rd year Computer Science Ph.D. student. I'm really excited to be the TA of CS 16, and hope we all had a great semester together! Seeing the rise of artificial intelligence (AI) based technology, I have now become a deep believer of deep learning, and is willing to see it transform our society day to days. In my spare time, I love to stay close to the ocean/ forest, travel to exotic countries, try out new food or just being Californian:) Reach out with any questions you have, and I will see you guys more in the lab, office hours, and lectures!
+  </td>
+</tr>
 </table>
 
 # CS16 S19 Office / Open Lab Hours
