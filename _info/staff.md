@@ -121,13 +121,6 @@ Lecture attendance is *highly recommended*, while lab attendance is *required*. 
 
 <style>
 iframe { width: 100%; height: 1100px; overflow: scroll; }
-  
-  Monday: 17:00 to 20:50
-  Tuesday: 19:00 to 20:50
-  Wednesday: 19:00 to 20:50
-  Thursday: 19:00 to 20:50
-  Friday: 14:00 to 16:50
-  
 </style>
 
 <iframe src=""></iframe>
