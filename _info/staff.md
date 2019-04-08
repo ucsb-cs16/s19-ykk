@@ -120,7 +120,14 @@ Lecture attendance is *highly recommended*, while lab attendance is *required*. 
 **Open labs**: All open labs will be held in **Phelps 3525 and 3526**. Additionally, labs will be open for walk-in help: see the schedule below for more information and to check which room we'll be in.
 
 <style>
-iframe { width: 100%; height: 1100px; overflow: scroll; }  
+iframe { width: 100%; height: 1100px; overflow: scroll; }
+  
+  Monday: 17:00 to 20:50
+  Tuesday: 19:00 to 20:50
+  Wednesday: 19:00 to 20:50
+  Thursday: 19:00 to 20:50
+  Friday: 14:00 to 16:50
+  
 </style>
 
 <iframe src=""></iframe>
