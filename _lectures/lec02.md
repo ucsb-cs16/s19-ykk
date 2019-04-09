@@ -27,7 +27,11 @@ lecture_date: 2019-04-04
 	- mkdir
 	- cd
 * Relative path vs. absolute path (important for mv, cp, mkdir, cd)
-
+* There are also some shortcuts to typing in the terminal
+	- `Ctrl + a` moves the cursor to the start of the line
+	- `Ctrl + e` moves the cursor to the end of the line
+	- `Ctrl + z` while in an application, suspends the app, puts it in the background, and exits back to the terminal (type `fg` on the command line to bring it back)
+	- `Ctrl + c` similar to `Ctrl + z`, but aborts an application instead
 
 # Basic Unix Commands
 
@@ -87,36 +91,20 @@ goes to the directory above the current one
 `cd ~`
 goes to the home directory
 
+`cd -`
+goes to the previous directory
+
+`cat [name]`
+displays the specified file in the terminal
+
 `./[name]`
 used to execute a compiled program
 
+`clear`
+tmpties text in the terminal
+
 
 # Directory Navigation in Linux
-* Refer to the screenshot from lecture for a diagram of a set of example directories. Imagine you start in your home directory, which holds several other directories.
-    * Use `pwd` to determine which directory you are currently in, `ls`to see contents of the current directory
-        * E.g.: If you are in the `home` directory, and you want to see the contents of `home`, then just use the command `ls` (this is a shortcut to `ls .`)
-    * To see the contents of another directory without moving out of your current directory, you can use *paths*
-        * E.g.: If you are in the `home` directory, which holds the `lab01` directory, and you want to look inside `lab01` without moving out of home, use the command `ls ./lab01` (or simply, `ls lab01`, because `lab01` is already in your current directory).
-    * To copy a **directory**, use the command `cp -R [source] [destination]`
-        * `-R` is a flag that indicates you are copying recursively and prepares cp to copy an entire directory
-        * Don't use `-R` if you want to copy a file
-        * You can use **absolute** or **relative** paths for either the source or destination directories
-            * E.g.:
-                With absolute and relative, respectively:
-                   `cp -R /home/jgaucho/cs16/lab02 .`
-                    * (the dot at the end indicates a relative path- copy the contents of the first directory into the current directory)
-                With relative and relative, respectively:
-                    `cp -R ./lab02  ../../jnewman`
-                    * Grab lab02 directory from the current directory you are in (can also write it without ./ as just lab02)
-                    * Can usually leave off ./ EXCEPT with executables- indicates that you are looking for an executable of that name in your current directory before you can run it
-                With relative and absolute, respectively:
-                    `cp -R ./lab02  /home/jnewman`
-
-                    In the above examples, which directory were you in?
-
-
-    *  `*` is the **wildcard** symbol (indicates that you want to perform an action on everything in a directory *that matches the given pattern*, e.g., if a pattern is `*.cpp`, then it will match everything that ends in `.cpp`; if the pattern is `hw0*`, then we will grab everything that starts with "hw0", e.g., `hw00.cpp`, `hw01.cpp`, etc.).
-
 * If a path starts with a `~` or a `.` (dot), it is a *relative* path. If it starts with  a `/` , it is an *absolute* path.
     * Relative paths indicate that you are looking for a file or directory in relation to the directory you are currently in, while absolute paths give the full path to the directory from the root.
     * An absolute path with lead you to the same file or a directory regardless of your starting diretory or a user that uses it.
@@ -126,6 +114,8 @@ used to execute a compiled program
     * E.g.: `ls ../../` lists the contents of the parent directory of the parent directory of the directory you are currently in
         `cd ..` allows you to move back into the parent directory of the current one
 * You will get an error if you try to access or reference a directory or file that does not exist!
+
+
 
 **Relative Paths**
 * `cd cs16/lab02` only works from one location, so it is a relative path
@@ -138,13 +128,14 @@ used to execute a compiled program
 
 
 **Absolute Paths**
+* Absolute paths always start with a `/`.
 * You can type in absolute paths with cd to skip typing cd several times in a row, if target file/directory is several directories deep
     * EX- `cd one`
             `cd two`
                `cd three`
     VS
-        `cd one/two/three`
-* Make sure you know where the absolute path to a directory actually starts- you can use `pwd` to figure out where you are, which will give you the absolute path for the directory you are currently in
+        `cd /usr/ykk/labs/lab2/one/two/three`
+* Make sure you know where the absolute path to a directory actually starts- you can use `pwd` to figure out where you are, which will give you the absolute path for the directory you are currently in (for the above example, `pwd` gives `/usr/ykk/labs/lab2`)
 
 * Can also use absolute paths with other commands:
     `mkdir /home/jnewman/cs16/lab01`
@@ -152,10 +143,57 @@ used to execute a compiled program
 
 
 
+
+* Imagine you start in your home directory, which holds several other directories.
+    * Use `pwd` to determine which directory you are currently in, `ls` to see contents of the current directory
+        * E.g.: If you are in the `home` directory, and you want to see the contents of `home`, then just use the command `ls` (this is a shortcut to `ls .`)
+    * To see the contents of another directory without moving out of your current directory, you can use *paths*
+        * E.g.: If you are in the `home` directory, which holds the `lab01` directory, and you want to look inside `lab01` without moving out of home, use the command `ls ./lab01` (or simply, `ls lab01`, because `lab01` is already in your current directory).
+    * To copy a **directory**, use the command `cp -R [source] [destination]`
+        * `-R` is a flag that indicates you are copying recursively and prepares cp to copy an entire directory
+        * Don't use `-R` if you want to copy a file
+        * You can use **absolute** or **relative** paths for either the source or destination directories
+            * E.g.:
+                With absolute as the first path and relative as the second path:
+                   `cp -R /home/jgaucho/cs16/lab02 .`
+                    * (the dot at the end indicates a relative path- copy the contents of the first directory into the current directory)
+                With relative and relative, respectively:
+                    `cp -R ./lab02  ../../jnewman`
+                    * Grab lab02 directory from the current directory you are in (can also write it without `./` as just lab02)
+                    * Can usually leave off `./` EXCEPT with executables- indicates that you are looking for an executable of that name in your current directory before you can run it
+                With relative and absolute, respectively:
+                    `cp -R ./lab02  /home/jnewman`
+
+                    In the above examples, which directory were you in?
+
+
+    *  `*` is the **wildcard** symbol (indicates that you want to perform an action on everything in a directory *that matches the given pattern*, e.g., if a pattern is `*.cpp`, then it will match everything that ends in `.cpp`; if the pattern is `hw0*`, then we will grab everything that starts with "hw0", e.g., `hw00.cpp`, `hw01.cpp`, etc.).
+
+
+
 # Vim Commands
 
 The link below is a very useful guide to learn fundamental "basic eight" commands in Vim:
 <https://ucsb-cs16.github.io/topics/vim_basic_eight>
+
+
+Here are some additional helpful commands in Vim (these are all done in the **Command Mode**)
+
+* `dd` deletes the line the cursor is on
+	- typing a number, such as 5, before `dd` deletes 5 lines starting from the cursor's location
+* `p` pastes after the cursor of whatever is copied
+	- `P` pastes before the cursor
+* `yy` copies an entire line the cursor is on
+	- a number `x` before `yy` copies `x` lines from the cursor (same as with `dd`)
+* `%` finds the matching `{` or `(` if your cursor is on it
+	- `d%` deletes everything between the `{` or `(` that the cursor is on and its match (i.e., `}` or `)`)
+* `gg` goes to the 1st line of the file
+* `G` goes to the last line of the file
+* `u` undo (similar to ctrl + z or cmd + z on Word/Google Docs)
+* `v` visual mode, this mode highlights the text 
+	- `shift + v` visual line mode, highlights 1 horizontal line at a time
+	- `ctrl + v` visual block mode, highlights 1 vertical line at a time
+	- once you highlight text, you can copy it using `y` or delete it using `d`
 
 
 # Writing, compiling and running a C++ program (hello world) program
@@ -208,7 +246,7 @@ int main() {
 #include <iostream>
 ```
 
-* This line (also known as an include directive) tells our C++ program to include a library dealing with Input/Output (I/O) functionality.
+* This line (also known as an _include directive_) tells our C++ program to include a library dealing with Input/Output (I/O) functionality.
 	* We need the library `<iostream>` to print stuff to our terminal.
 
 ```
