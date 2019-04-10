@@ -33,8 +33,8 @@ There's a better alternative to Putty for Windows users, by using Git. The instr
 
 ## Log in and create a local directory
 
-* Log into the driver's CoE account on CSIL and open a terminal.
-* Under your **cs16** directory, the driver should create a new directory named **lab01** (refer to lab00 for instructions if you have forgotten how to do this)
+* Log into your CoE account on CSIL and open a terminal.
+* Under your **cs16** directory, you should create a new directory named **lab01** (refer to lab00 for instructions if you have forgotten how to do this)
 
 You are now ready to get the starter code.
 
