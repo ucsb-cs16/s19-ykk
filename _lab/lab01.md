@@ -62,6 +62,9 @@ min2.cpp  min3v1.cpp  min3v2.cpp README.md
 
 If you don't see those files, go back through the instructions and make sure you didn't miss a step. If you still have trouble, ask your TA or tutor for assistance.
 
+
+# # # # # # # Skip the Following Step for creating a repo # # # # # # 
+
 ## Create a repo on github in our class organization
 
 For this lab and all subsequent programming assignments, you should start by creating a repo _in the **[{{ site.github_org_name }}]({{ site.github_org_url }})** organization_. 
@@ -96,7 +99,8 @@ You have created an initial copy of the starter files for this lab.
 
 _Alternatively_ (i.e., instead of using the web interface), you can commit your files using `git` commands on the command line. Ask the instructor or the mentors if you get stuck.
 
-## Solving the problems for this lab<a name="programs"></a>
+
+# Solving the problems for this lab<a name="programs"></a>
 
 This assignment consists of 3 problems, each of which is described below. The first one is worth 20 points each, and the last two are worth 40 points each. 
 
@@ -359,7 +363,9 @@ Upload your files to your repo on github using github's web interface.
 Once you are satisfied that **your programs are correct**, then it's time to submit them. Note that Gradescope will display an error if you don’t upload **all six files**.
 
 
-Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site. Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of submitting the code that is in a Github repo. _Select your Github repo for this assignment._ You should receive full credit for a completely correct program.
+Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site. Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission. 
+
+You should receive full credit for a completely correct program that follows the style conventions described below.
 
 
 
