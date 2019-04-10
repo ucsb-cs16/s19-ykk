@@ -35,14 +35,21 @@ There's a better alternative to Putty for Windows users, by using Git. The instr
 
 * Log on into your Github account, and create a repository through Github
 * Under the "owner" drop-down menu, you should select our class organization, ucsb-cs16-s19-ykk
-* The naming convention for your repository should be lab01_insertGithubUsername (for example, lab01_jGaucho)
+* The naming convention for your repository should be lab01_yourGithubUsername (for example, lab01_jGaucho)
 * Make sure you make the repository PRIVATE
-* You can add C++ for your .gitignore and initialize with a README. This is optional, but doesn't hurt to have.
+* You can add C++ for your .gitignore and initialize with a README. This is optional, but doesn't hurt to have. 
+* Create your repository
+
+
+Now you are ready to clone your repository. In the repository, you should see a URL under **Quick setup** at the top, or, if you have added a .gitignore and/or README, a green dropdown menu that says **Clone or download**
+
+* Copy that URL under **Quick setup** or **Clone or download** when you press on the dropdown menu
+* Now go to your terminal, navigate (cd) into your cs16 folder
+* Run the command **git clone insertYourURLYouCopiedHere**
 
 For more exact instructions, visit these pages (preferably in order)
 * <https://ucsb-cs16.github.io/topics/github_com_create_private_repo_under_org/>
 * <https://ucsb-cs16.github.io/topics/git_cloning_your_first_repo/>
-
 
 You are now ready to get the starter code.
 
@@ -52,7 +59,9 @@ The following instructions will work only if you are working on the CSIL server.
 
 <https://ucsb-cs16.github.io/topics/csil_copying_files/>
 
-Copy the code from the instructor's account _on the CSIL server_ into your **lab01** directory _on the CSIL server_ by issuing the following command (**remember that `-bash-4.2$` represents the command prompt and you don't need to type it in**):
+First, make sure you're in the directory you just cloned (cd into your **lab01_yourGithubName** directory)
+
+Copy the code from the instructor's account _on the CSIL server_ into your **lab01_yourGithubName** directory _on the CSIL server_ by issuing the following command (**remember that `-bash-4.2$` represents the command prompt and you don't need to type it in**):
 
 ```
 -bash-4.2$ cp /cs/faculty/ykk/cs16/labs/lab01/* ~/cs16/lab01/
