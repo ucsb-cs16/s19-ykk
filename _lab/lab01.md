@@ -31,37 +31,19 @@ There's a better alternative to Putty for Windows users, by using Git. The instr
 
 <https://piazza.com/class/ju19d0pmd093r8?cid=9>
 
-## Creating and cloning a Github repository
+## Log in and create a local directory
 
-* Log on into your Github account, and create a repository through Github
-* Under the "owner" drop-down menu, you should select our class organization, ucsb-cs16-s19-ykk
-* The naming convention for your repository should be lab01_yourGithubUsername (for example, lab01_jGaucho)
-* Make sure you make the repository PRIVATE
-* You can add C++ for your .gitignore and initialize with a README. This is optional, but doesn't hurt to have. 
-* Create your repository
-
-
-Now you are ready to clone your repository. In the repository, you should see a URL under **Quick setup** at the top, or, if you have added a .gitignore and/or README, a green dropdown menu that says **Clone or download**
-
-* Copy that URL under **Quick setup** or **Clone or download** when you press on the dropdown menu
-* Now go to your terminal, navigate (cd) into your cs16 folder
-* Run the command **git clone insertYourURLYouCopiedHere**
-
-For more exact instructions, visit these pages (preferably in order)
-* <https://ucsb-cs16.github.io/topics/github_com_create_private_repo_under_org/>
-* <https://ucsb-cs16.github.io/topics/git_cloning_your_first_repo/>
+* Log into the driver's CoE account on CSIL and open a terminal.
+* Under your **cs16** directory, the driver should create a new directory named **lab01** (refer to lab00 for instructions if you have forgotten how to do this)
 
 You are now ready to get the starter code.
 
 ## Getting the starter code  <a name="getstarter"></a>
 
 The following instructions will work only if you are working on the CSIL server. If you are working on your laptop, you will need to use remote copy via `scp`.
-
 <https://ucsb-cs16.github.io/topics/csil_copying_files/>
 
-First, make sure you're in the directory you just cloned (cd into your **lab01_yourGithubName** directory)
-
-Copy the code from the instructor's account _on the CSIL server_ into your **lab01_yourGithubName** directory _on the CSIL server_ by issuing the following command (**remember that `-bash-4.2$` represents the command prompt and you don't need to type it in**):
+Copy the code from the instructor's account _on the CSIL server_ into your **lab01** directory _on the CSIL server_ by issuing the following command (**remember that `-bash-4.2$` represents the command prompt and you don't need to type it in**):
 
 ```
 -bash-4.2$ cp /cs/faculty/ykk/cs16/labs/lab01/* ~/cs16/lab01/
@@ -83,9 +65,6 @@ For this lab and all subsequent programming assignments, you should start by cre
 
 Make sure that when you create a repo, the **Owner** is the **ucsb-cs16-w19** organization (**NOT** your personal account).
 
-**Your group needs ONLY ONE repo for this assignment.** 
-Because your lab partner is going to be added as a collaborator, you will both have access to the repository, so there is **no need to create a duplicate repo**.
-
 **IMPORTANT**. 
 If you haven't completed the **"Setup GitHub and add yourself to our organization" steps from Lab00**, then make sure you do it now, otherwise, you won't be able to access the organization and follow the steps below. 
 
@@ -104,14 +83,6 @@ When you verified that your GitHub account is associated with the correct email 
 
 * Click on the "Create repo button"
 
-* Click on the "Settings" tab, then click on the "Collaborators and teams". Search for your partner's github username under collaborators and add them. 
-The driver should now log out of github.
-
-* Navigator, log into github and accept the invitation.
-
-* You now have shared ownership of all the code that you will write for this lab.
-
-
 ## Upload the initial version of your code using github's web interface 
 
 * Upload the files in your lab01 directory to the new repo you created in the previous step. To do this, you should be physically present on a lab machine or in CSIL where you have access to a web browser and a local copy of your files (min2.cpp  min3v1.cpp  min3v2.cpp README.md). 
@@ -121,8 +92,6 @@ The driver should now log out of github.
 * Now either drag and drop the files: from your machine or use the "Choose your files" option to browse through your local directory and upload the file. Then press the green "Commit new files" button. Navigate back to your repo to see that the files you uploaded are correctly listed. Click on it and you should see your code on github's web interface. 
 
 You have created an initial copy of the starter files for this lab.
-
-
 
 ## Solving the problems for this lab<a name="programs"></a>
 
