@@ -199,8 +199,6 @@ Upload your files to your repo on github using github's web interface following 
 
 ### Calculate the approximate value of PI
 
-Switch roles with your partner.
-
 Write a C++ program in a file named **pi.cpp** that approximates the value of the constant π. Once again you should not resort to using predefind constants and functions for π, that are provided by C++ standard libraries. Instead you should compute the value of π based on the Leibniz formula for π. The formula is given below:
 
 ```
@@ -262,8 +260,6 @@ To calculate x to the power of y, use the `pow(x,y)` function from the standard 
 Upload your files to your repo on github using github's web interface. (You will need to be on a csil machine and not remotely logged in to do this step (because you need to use a web browser with access to those files). Disregard this if you're working on your own machine.)
 
 ### Calculate the minimum of 4 numbers
-
-Switch roles with your partner.
 
 In this part of the lab you will write a program that compares 4 input numbers and prints out the smallest one.
 
