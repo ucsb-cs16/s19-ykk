@@ -4,6 +4,34 @@ layout: default
 ready: true
 ---
 
+# CS16 S19 Office / Open Lab Hours
+
+## Prof. K’s Office Hours
+
+    Location: Our Classroom 
+    Time: right after class
+
+## Lab Hours (Closed Labs)
+(50 minute discussion sections) Wednesdays starting at 8am, 9am, 10am, 11am in PHELPS 3525
+
+Lecture attendance is *highly recommended*, while lab attendance is *required*. For more information, see [the course policies](/s19-ykk/info/policies/).
+
+**Open labs**: All open labs will be held in **Phelps 3525 and 3526**. Additionally, labs will be open for walk-in help: see the schedule below for more information and to check which room we'll be in.
+
+**Temporary Schedule**
+
+  * Monday: 17:00 to 20:50
+  * Tuesday: 19:00 to 20:50
+  * Wednesday: 19:00 to 20:50
+  * Thursday: 19:00 to 20:50
+  * Friday: 14:00 to 16:50
+
+<style>
+iframe { width: 100%; height: 1100px; overflow: scroll; }  
+</style>
+
+<iframe src="https://docs.google.com/spreadsheets/d/1SCjlwz9he8auk3YfO8IpH9J56T47KinuMk31PtmvSVk/edit?ts=5c9d5601#gid=4015272"></iframe>
+
 # Who We Are<a name="staff"></a>
 
 <table style="width:80%">
@@ -44,7 +72,7 @@ ready: true
   <img src="/s19-ykk/info/mentorPhotos/Matthew-ho.png"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Matthew Ho (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general. Don't be afraid to email me at matthewho -at- ucsb.edu" </i>
+  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general." </i>
   </td>
 </tr>
   <tr>
@@ -113,30 +141,3 @@ ready: true
 </tr>
 </table>
 
-# CS16 S19 Office / Open Lab Hours
-
-## Prof. K’s Office Hours
-
-    Location: HFH 2107
-    Time: TBD
-
-## Lab Hours (Closed Labs)
-(50 minute discussion sections) Wednesdays starting at 8am, 9am, 10am, 11am in PHELPS 3525
-
-Lecture attendance is *highly recommended*, while lab attendance is *required*. For more information, see [the course policies](/s19-ykk/info/policies/).
-
-**Open labs**: All open labs will be held in **Phelps 3525 and 3526**. Additionally, labs will be open for walk-in help: see the schedule below for more information and to check which room we'll be in.
-
-**Temporary Schedule**
-
-  * Monday: 17:00 to 20:50
-  * Tuesday: 19:00 to 20:50
-  * Wednesday: 19:00 to 20:50
-  * Thursday: 19:00 to 20:50
-  * Friday: 14:00 to 16:50
-
-<style>
-iframe { width: 100%; height: 1100px; overflow: scroll; }  
-</style>
-
-<iframe src=""></iframe>
