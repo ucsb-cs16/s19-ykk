@@ -30,7 +30,7 @@ Lecture attendance is *highly recommended*, while lab attendance is *required*. 
 iframe { width: 100%; height: 1100px; overflow: scroll; }  
 </style>
 
-<iframe src="https://docs.google.com/spreadsheets/d/1SCjlwz9he8auk3YfO8IpH9J56T47KinuMk31PtmvSVk/edit?ts=5c9d5601#gid=4015272"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJ_V06VJ4RXU4ulR2aJZuZVwxzuawav5BpmBvxz8Merd_LxNLQwQzasZk4M2fGqdgXQyodfWqo3EBR/pubhtml?gid=4015272&single=true"></iframe>
 
 # Who We Are<a name="staff"></a>
 
@@ -43,7 +43,6 @@ iframe { width: 100%; height: 1100px; overflow: scroll; }
   <i> "I am looking forward to getting to know you and helping you explore the world of C++ programming. </i><br/>
   <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/>
   ykk-class+cs16s19 @cs.ucsb.edu (remove the space before @).<br/>
-  <i>My office hours time and location are shown below."</i><br/>
   </td>
 </tr>
 </table>
