@@ -4,7 +4,7 @@ num: lab01
 ready: true
 desc: "Crunching numbers: Loops and functions "
 assigned: 2019-04-09 8:00:00.00-7
-due: 2019-04-15 23:00:00.00-7
+due: 2019-04-16 23:59:00.00-7
 ---
 
 <div markdown="1">
@@ -38,7 +38,7 @@ There's a better alternative to Putty for Windows users, by using Git. The instr
 ## Log in and create a local directory
 
 * Log into your CoE account on CSIL and open a terminal.
-* Under your **cs16** directory, you should create a new directory named **lab01** (refer to lab00 for instructions if you have forgotten how to do this)
+* Under your **cs16** directory, you should create a new directory named **{{page.num}}** (refer to lab00 for instructions if you have forgotten how to do this)
 
 You are now ready to get the starter code.
 
@@ -50,9 +50,9 @@ The following instructions will work only if you are working on the CSIL server.
 Copy the code from the instructor's account _on the CSIL server_ into your **{{page.num}}** directory _on the CSIL server_ by issuing the following command (**remember that `-bash-4.2$` represents the command prompt and you don't need to type it in**):
 
 ```
--bash-4.2$ cp /cs/faculty/ykk/cs16/labs/lab01/* ~/cs16/lab01/
+-bash-4.2$ cp /cs/faculty/ykk/cs16/labs/{{page.num}}/* ~/cs16/{{page.num}}/
 ```
-After running this command, if you `cd` into **~/cs16/lab01/** and use the `ls` command, you should see three **.cpp** files and a README:
+After running this command, if you `cd` into **~/cs16/{{page.num}}/** and use the `ls` command, you should see three **.cpp** files and a README:
 
 ```
 -bash-4.2$ ls
@@ -61,6 +61,9 @@ min2.cpp  min3v1.cpp  min3v2.cpp README.md
 ```
 
 If you don't see those files, go back through the instructions and make sure you didn't miss a step. If you still have trouble, ask your TA or tutor for assistance.
+
+
+# # # # # # # Skip the Following Step for creating a repo # # # # # # 
 
 ## Create a repo on github in our class organization
 
@@ -96,7 +99,8 @@ You have created an initial copy of the starter files for this lab.
 
 _Alternatively_ (i.e., instead of using the web interface), you can commit your files using `git` commands on the command line. Ask the instructor or the mentors if you get stuck.
 
-## Solving the problems for this lab<a name="programs"></a>
+
+# Solving the problems for this lab<a name="programs"></a>
 
 This assignment consists of 3 problems, each of which is described below. The first one is worth 20 points each, and the last two are worth 40 points each. 
 
@@ -149,7 +153,7 @@ Enter number of rows and columns:
 0 1
 ```
 
-Note that when you are collecting user input, if you want to store the values in two variables, e.g., `var1` and `var2`, then the `cin` statement would be as follows (no need to provide a space inside your code):
+Note that when you are collecting user input, if you want to store the values in two variables, e.g., `var1` and `var2`, then the `cin` statement would be as follows (no need to provide a space between the two variables inside your code):
 
 ```c++
 cin >> var1 >> var2;
@@ -158,7 +162,7 @@ cin >> var1 >> var2;
 
 Each string printed by the program should include a newline at the end, but **NO other trailing whitespace** (i.e., **do NOT include extra space** characters at the end of the line). **Make sure that you have no typos in your code!** The autograder tests will not pass if your solution does not match _exactly_ (not just _look_ exactly the same).
 
-For this problem you have to use a `for` loop and a `while` or `do-while` loop. While loops are similar in that the code inside the body of the while is repeated as long as the while condition is true. Here is the syntax for `while`
+For this problem you have to use a `for` loop, a `while` or `do-while` loop. While loops are similar in that the code inside the body of the while is repeated as long as the while condition is true. Here is the syntax for `while`
 
 ```cpp
 while('expression'){
@@ -169,13 +173,35 @@ while('expression'){
 `'expression'` should be replaced by the appropriate boolean expression. The body of the loop is executed as long as the expression is true. E.g.,
 
 ```cpp
-int x=5;
+int x = 5;
 while (x > 0){
     cout << x << " ";
 	x--;
 }
 ```
 The above code prints "5 4 3 2 1 " (_includes_ a space at the end).
+
+You can achieve a simiar behavior by using a `for` loop.
+The `while` and `for` loops can be interchanged, but some loop formats are more convenient than others in different situations.
+
+The `for` loop is used to repeat code (usually a fixed number of times).
+
+```c++
+	for (INITIALIZATION; BOOLEAN_EXPRESSION; UPDATE) {
+		// Code to run when the BOOLEAN_EXPRESSION is true.
+	}
+```
+
+1. Execute the INITIALIZATION statement.
+2. Check if the BOOLEAN_EXPRESSION is true.
+* if true, execute code in the loop.
+* THEN execute UPDATE statement.
+* Go back to the BOOLEAN_EXPRESSION.
+* if false, do not execute code in the loop.
+* exit the loop and resume program execution.
+
+
+
 
 
 To compile your code use the `g++` command:
@@ -191,7 +217,7 @@ Note that the `-std=c++11` flag is optional to use (that is, not critical to def
 Run your executable as follows to test it out.
 `$ ./block`
 
-	> Remember to re-compile the relevant files after you make any changes to the C++ code.
+	Remember to re-compile the relevant files after you make any changes to the C++ code.
 
 Upload your files to your repo on github using github's web interface following the instructions at the beginning of this lab.
 
@@ -215,7 +241,7 @@ pi = 4 · [ 1 – 1/3 + 1/5 – 1/7 + 1/9 ... + (–1 ^ n)/(2n + 1) ]
 
 The Leibniz formula works well for high values of n.
 
-Here is a link that gives the approximated values of pi for up to 1000 terms: [http://www.eveandersson.com/pi/gregory-leibniz](http://www.eveandersson.com/pi/gregory-leibniz)
+Here is a link that gives the approximated values of pi for up to 1000 terms: <http://www.eveandersson.com/pi/gregory-leibniz>
 
 
 The program takes an input from the user for the value of n, which determines the number of terms in the approximation of the value of pi (i.e., **the approximation is using n + 1 terms**). The program then outputs the approximated value of pi as calculated by the Leibniz formula. You must also include a loop that allows the user to repeat this calculation for new values of 'n' until the user says she or he wants to end the program by issuing an input of -1 (or any other negative number). You may assume that the user always inputs an integer.
@@ -337,7 +363,9 @@ Upload your files to your repo on github using github's web interface.
 Once you are satisfied that **your programs are correct**, then it's time to submit them. Note that Gradescope will display an error if you don’t upload **all six files**.
 
 
-Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site. Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of submitting the code that is in a Github repo. _Select your Github repo for this assignment._ You should receive full credit for a completely correct program.
+Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site. Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission. 
+
+You should receive full credit for a completely correct program that follows the style conventions described below.
 
 
 

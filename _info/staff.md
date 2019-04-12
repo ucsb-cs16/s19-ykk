@@ -4,6 +4,34 @@ layout: default
 ready: true
 ---
 
+# CS16 S19 Office / Open Lab Hours
+
+## Prof. K’s Office Hours
+
+    Location: Our Classroom 
+    Time: right after class
+
+## Lab Hours (Closed Labs)
+(50 minute discussion sections) Wednesdays starting at 8am, 9am, 10am, 11am in PHELPS 3525
+
+Lecture attendance is *highly recommended*, while lab attendance is *required*. For more information, see [the course policies](/s19-ykk/info/policies/).
+
+**Open labs**: All open labs will be held in **Phelps 3525 and 3526**. Additionally, labs will be open for walk-in help: see the schedule below for more information and to check which room we'll be in.
+
+**Temporary Schedule**
+
+  * Monday: 17:00 to 20:50
+  * Tuesday: 19:00 to 20:50
+  * Wednesday: 19:00 to 20:50
+  * Thursday: 19:00 to 20:50
+  * Friday: 14:00 to 16:50
+
+<style>
+iframe { width: 100%; height: 1100px; overflow: scroll; }  
+</style>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJ_V06VJ4RXU4ulR2aJZuZVwxzuawav5BpmBvxz8Merd_LxNLQwQzasZk4M2fGqdgXQyodfWqo3EBR/pubhtml?gid=4015272&single=true"></iframe>
+
 # Who We Are<a name="staff"></a>
 
 <table style="width:80%">
@@ -15,7 +43,6 @@ ready: true
   <i> "I am looking forward to getting to know you and helping you explore the world of C++ programming. </i><br/>
   <i>For questions or notes that cannot be posted on Piazza, email me:</i><br/>
   ykk-class+cs16s19 @cs.ucsb.edu (remove the space before @).<br/>
-  <i>My office hours time and location are shown below."</i><br/>
   </td>
 </tr>
 </table>
@@ -44,7 +71,7 @@ ready: true
   <img src="/s19-ykk/info/mentorPhotos/Matthew-ho.png"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Matthew Ho (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general. Don't be afraid to email me at matthewho -at- ucsb.edu" </i>
+  <i> "Hi, my name is Matthew, and I'm a second-year computer science student. CS16 is a great introduction to the field of computer science, and I am excited to be a tutor for this quarter. I want to focus on helping students strengthen their problem-solving skills and feel confident in their ability to program. I also want to be a resource for you outside the classroom - from class assignments, to career advice, or just life in general." </i>
   </td>
 </tr>
   <tr>
@@ -103,32 +130,13 @@ ready: true
   <i> "Hi everyone! My name is Ben Ye, I'm a 2nd-year CS major. I went into UCSB with little to no prior coding experience, so I can definitely relate to people who may have trouble picking up the first steps in coding with C++. CS16 was a very integral part of my CS learning process since it lay the foundation and backbone for subsequent CS courses. If you have any questions then feel free to ask away, I'm more than happy to help you. In my spare time, I like to go to costco and eat, go home and eat, and eat before I sleep. I really like to eat food and I go to the gym sometimes." </i>
   </td>
 </tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Keqian-Li.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3> Keqian Li (TA)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i> "Hi, this is Keqian Li and I'm a 3rd year Computer Science Ph.D. student. I'm really excited to be the TA of CS 16, and hope we all had a great semester together! Seeing the rise of artificial intelligence (AI) based technology, I have now become a deep believer of deep learning, and is willing to see it transform our society day to days. In my spare time, I love to stay close to the ocean/ forest, travel to exotic countries, try out new food or just being Californian:) Reach out with any questions you have, and I will see you guys more in the lab, office hours, and lectures!
+  </td>
+</tr>
 </table>
 
-# CS16 S19 Office / Open Lab Hours
-
-## Prof. K’s Office Hours
-
-    Location: HFH 2107
-    Time: TBD
-
-## Lab Hours (Closed Labs)
-(50 minute discussion sections) Wednesdays starting at 8am, 9am, 10am, 11am in PHELPS 3525
-
-Lecture attendance is *highly recommended*, while lab attendance is *required*. For more information, see [the course policies](/s19-ykk/info/policies/).
-
-**Open labs**: All open labs will be held in **Phelps 3525 and 3526**. Additionally, labs will be open for walk-in help: see the schedule below for more information and to check which room we'll be in.
-
-**Temporary Schedule**
-
-  * Monday: 17:00 to 20:50
-  * Tuesday: 19:00 to 20:50
-  * Wednesday: 19:00 to 20:50
-  * Thursday: 19:00 to 20:50
-  * Friday: 14:00 to 16:50
-
-<style>
-iframe { width: 100%; height: 1100px; overflow: scroll; }  
-</style>
-
-<iframe src=""></iframe>
