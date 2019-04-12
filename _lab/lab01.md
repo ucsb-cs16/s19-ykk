@@ -4,7 +4,7 @@ num: lab01
 ready: true
 desc: "Crunching numbers: Loops and functions "
 assigned: 2019-04-09 8:00:00.00-7
-due: 2019-04-15 23:00:00.00-7
+due: 2019-04-16 23:59:00.00-7
 ---
 
 <div markdown="1">
