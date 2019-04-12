@@ -54,19 +54,6 @@ https://ucsb-cs16.github.io/topics/ssh_connect/
   * `string`: sequence (array) of characters (strings are always inside the double quotes, e.g., "Hello!")
   * `bool`: boolean
 
-* Good practice to initialize your variables
-  * Uninitialized variables may have strange side-effects, e.g., running the same code with the same input but getting different answers.
-
-    C++ programs are guided by rules, but undefined variable protocols are usually set by developers.
-Some platforms may default undefined vars to 0, others might default to garbage vals (more common);
-Can be a source of tricky bugs.
-
-_PRO TIP_: initialize variable to a value that doesn’t make sense, so you can determined when it is not being set to the expected value later in the code.
-For example, if 0 was an acceptable value, then you may not notice there was an error.
-
-_PRO TIP / Best practice_: make your variable names relevant to what they do (random names for your variables is a big NO-NO).
-Naming them with something that indicates what the variable is used for makes your code mode readable and maintainable.
-
 _C++ shortcut_: 
 To increment the value of a numeric variable by 1, simply add ++ to it. E.g.,
 ```c++
@@ -84,25 +71,7 @@ also a shortcut
                     count += 1; //count is now 8!
 ```
 
-
-
-# Initializing, Assigning, and Modifying Variables
-
-* Example
-
-```c++
-int x;      // declare variable x of type int
-int y, z;   // declare variables x and y in one statement
-x = 10;     // assign x to an integer value 10.
-
-int a = 10;   // declare and initialize (i.e., assign its initial value) in one statement
-int b = 20, c = 30;
-
-b = 6 + 4;
-
-cout << a << "," << b << "," << c << "," <<
-x << "," << y << "," << z << endl;
-```
+# Modifying Variables
 
 * Operations between 2 double variables results in a double variable
 * Operations between a double and an int variable still results in a double variable
@@ -122,49 +91,6 @@ int z = x + y;
 cout << z << endl;  //will print out 3
 ```
 * Different C++ compilers handle division by zero differently, some may just assign the "inf" (infinity) value, while some actually throws an error
-
-# Boolean Expressions
-* An expression that evaluates to either `true` or `false`.
-* You can build boolean expressions with relational operators comparing values:
-
-```c++
-==  // true if two values are equivalent
-!=  // true if two values are not equivalent
-< // true if left value is less than the right value
-<=  // true if left value is less than OR EQUAL to the right value
-> // true if left value is greater than the right value
->=  // true if left value is greater than OR EQUAL to the right value
-```
-
-* Integer values can be used as boolean values
-  * C++ will treat the number 0 as false and *any* non-zero number as true.
-
-```c++
-bool x = 5 == 1;  // x = 0
-bool x = 3 != 2;  // x = 1
-```
-
-  * Combine boolean expressions using Logical Operators
-
-```
-!   // inverts true to false or false to true
-&&  // boolean AND; Returns false if either expression is false, e.g., "false && true" returns false; otherwise, returns true
-||  // boolean OR; Returns true if either expression is true, e.g., "false && true" returns true; otherwise, returns false
-```
-  
-  * Example
-
-```c++
-bool x = true;
-bool y = true;
-x = !x;     // x = false
-x = x && y    // x = false
-x = x || y    // x = true
-```
-
-# Control Structures
-
-* Boolean expressions are fundamental pieces that provide control flow within your program.
 
 ## If-else statements
 

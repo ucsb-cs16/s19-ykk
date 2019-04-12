@@ -1,7 +1,7 @@
 ---
 num: "lect04"
 lecture_date: 2019-04-11
-desc: 
+desc: User Input; Repetition with loops
 ready: true
 reading: Chapter 3 and 4
 ---
@@ -241,7 +241,10 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
+## Vim shortcut
 
+* While in the command mode, you can use `r` to replace a character over the letter that you highlight with your cursor
+* So if you do `r`, and then `i`, it replaces the text at the cursor with the letter `i`
 
 ### Skipping and Terminating Loop Execution
 
@@ -259,14 +262,31 @@ i.e., the rest of that block below the `continue`/`break` line is **not** execut
 ```
 for (int i = 0; i < 10; i++) {
 	if (i == 4)
-		continue;
+		continue;	//if i is equal to 4, go back to the top of the for loop
 	if (i == 7)
-		break;
+		break;		//if i is equal to 7, break out of the loop
 	cout << “i = “ << i << endl;
 }
 ```
+```
+while(true) {
+	if(x < 0)
+		break;		//if x goes past this condition, break out of the loop
+	cout << x << endl;
+	x--;
+}
+```
 
+`Continue` also works on `while` and `do-while` loops
 
+```
+do {
+	if(x == 10)
+		continue;	//when x is equal to 0, go back to the top of the loop
+	cout << x << endl;
+	x--;
+} while(x > 0);
+```
 
 # Formatting output to the terminal
 
