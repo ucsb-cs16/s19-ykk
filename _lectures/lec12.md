@@ -3,6 +3,6 @@ num: "lect12"
 lecture_date: 2019-05-09
 desc: 
 ready: false
-reading: Chapter 9, 13.1
+reading: Sections 4.5, 5.2, 7.2, 9.1, 10.1
 pdfurl: 
 ---
