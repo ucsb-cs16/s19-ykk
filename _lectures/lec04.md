@@ -1,7 +1,7 @@
 ---
 num: "lect04"
 lecture_date: 2019-04-11
-desc: 
+desc: User Input; Repetition with loops
 ready: true
 reading: Chapter 3 and 4
 ---
