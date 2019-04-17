@@ -43,7 +43,7 @@ Below are the links to different sections of the lab:
 
 # Step by Step Instructions to getting setup with github <a name="git"></a>
 
-## Step 1a: Initial ONE-TIME git configurations (OPTIONAL) 
+## Step 1a: Initial ONE-TIME git configurations
 
 * Read this article on [git basic workflow](https://ucsb-cs56-pconrad.github.io/topics/git_basic_workflow/)
 
