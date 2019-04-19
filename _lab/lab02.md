@@ -43,7 +43,7 @@ Below are the links to different sections of the lab:
 
 # Step by Step Instructions to getting setup with github <a name="git"></a>
 
-## Step 1a: Initial ONE-TIME git configurations (OPTIONAL) 
+## Step 1a: Initial ONE-TIME git configurations
 
 * Read this article on [git basic workflow](https://ucsb-cs56-pconrad.github.io/topics/git_basic_workflow/)
 
@@ -85,6 +85,11 @@ When you verified that your GitHub account is associated with the correct email 
 
 ## Step 2: Clone the repo in the pilot's account and get the starter code
 
+* On the terminal, change to your cs16 directory:
+
+```
+cd ~/cs16
+```
 
 * Using the web-browser, navigate to your newly created repo on github. Find the address of your git repo. Click on the green "clone or download button", and select the "Use SSH" option. If your git repo was named `{{page.num}}_jgaucho`, then the git address should something like: `git@github.com:{{site.github_org_name}}/{{page.num}}_jgaucho.git`. Now clone your repo into your csil account by typing the following on the terminal, replacing the last argument with the address of your git repo:
 
@@ -98,11 +103,6 @@ git clone git@github.com:ucsb-cs16-w19/{{page.num}}_jgaucho.git
 cd {{page.num}}_jgaucho
 ```
 
-* On the terminal, change to your cs16 directory:
-
-```
-cd ~/cs16
-```
 
 * Copy the starter code by typing the following command (to your git repo directory):
 
