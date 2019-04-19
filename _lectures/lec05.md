@@ -282,3 +282,76 @@ int main() {
 
 * `main` prints the result of `quadrupleValue` return value. Program exits.
 
+
+
+### Code written during lecture
+
+The example shows how to do function overloading. Not included is the example of a function with the same input parameters but different return types, which results in an error.
+
+```cpp
+// print_hello.cpp
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+double return_sum(double var, double x)
+{
+       return (var+x);
+}
+
+void print_hello(int var, int x)
+{
+    for (int i = 0; i < var; i = i+x)
+    {
+        cout << "Hello" << endl;
+        cout << "var = " << var << " x = " << x << endl;
+    }
+    return;
+}
+
+
+void print_hello(int var)
+{
+    for (int i = 0; i < var; i++)
+    {
+        cout << "Hello" << endl;
+    }
+    return;
+}
+
+void print_hello()
+{
+    cout << "Hello" << endl;
+    return;
+}
+
+int main(int argc, char* argv[])
+{
+    int user_count = -1;
+
+    if (argc == 1)
+    {
+        cout<< "The name of your program is " << argv[0] << endl;
+        return 0;
+    }
+    if (argc == 2)
+    {
+        user_count = atoi(argv[1]);
+    }
+    else {
+        cout << "You didn't give us correct input!" << endl;
+        exit(-1);
+    }
+
+
+    print_hello(user_count);
+
+    cout << "___" << endl;
+    print_hello(5, 2);
+
+    cout << "___" << endl;
+    cout << return_sum(15.5, 12.8) << endl;
+
+    return 0;
+}
+```
