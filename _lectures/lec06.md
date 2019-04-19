@@ -2,7 +2,7 @@
 num: "lect06"
 lecture_date: 2019-04-18
 desc: "Loops, switch, functions + makefile"
-ready: false
+ready: true
 ---
 
 This lecture mainly focused on the following topics:
