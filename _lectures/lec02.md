@@ -64,10 +64,10 @@ lists the contents of a directory, and provides additional information about the
 distinguishes between files and directories (if the line starts with the letter ‘d’, then it corresponds to a directory, if not, then it corresponds to a file)
 
 `mv [src] [dest]` 
-move a **file/directory** called `src` to a file/directory called `src` 
+move a **file/directory** called `src` to a file/directory called `dest` (if you are moving a file (file1) to another filename (file2), then you are effectively renaming file1)
 
 `mv [src1] [src2] [dest]` 
-move the specified files to a file/directory called `src` 
+move the specified files to a directory called `dest` 
 
 `rm [file]`
 deletes/removes a file (use with caution because it deletes files irrecoverably)
