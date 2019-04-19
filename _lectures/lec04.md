@@ -321,3 +321,55 @@ One of the powers of computing is being able to do a brute-force search for a so
 Horses cost $10, pigs cost $3, and rabbits are only $0.50. A farmer buys 100 animals for $100, How many of each animal did he buy?  
 
 Write a program to do this.
+
+
+
+## Code written during lecture
+
+The final file (without the intermediate changes):
+
+```cpp
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+    int int1 = -1;
+    int int2 = -1;
+
+/*
+    for (int i = 0; i < 10; i++) {
+        if (i == 4)
+            continue;
+        if (i == 7)
+            break;
+        cout << "i = " << i << endl;
+    }
+*/
+    cout << "Enter two numbers: ";
+    cin >>  int1 >> int2;
+    while (int1 == int2)
+    {
+        cout << "int1 = " << int1 << endl;
+        cout << "int2 = " << int2 << endl;
+        cin >>  int1 >> int2;
+    }
+
+    cout << " Now, with the do-while" << endl;
+
+    do {
+        cout << "int1 = " << int1 << endl;
+        cout << "int2 = " << int2 << endl;
+        cin >>  int1 >> int2;
+        if (int1 == int2)
+        {
+            break;
+            cout << "I love " << int1 << endl;
+        }
+    }
+    while (int1 == int2);
+
+    return 0;
+}
+```
