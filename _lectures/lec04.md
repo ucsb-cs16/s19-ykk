@@ -1,9 +1,9 @@
 ---
 num: "lect04"
 lecture_date: 2019-04-11
-desc: 
+desc: "User input/output and loops"
 ready: true
-reading: Chapter 3 and 4
+reading: Chapter 3
 ---
 
 
