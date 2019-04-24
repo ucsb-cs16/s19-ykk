@@ -102,14 +102,15 @@ See the lecture slides for the list of topics on the exam, as well as the practi
 * Block Placement:
 	* What is the proper order to place "blocks" of code in?
 	* Notes on functions:
-		* The declaration is function’s return value, name and parameters. The definition is its implementation (code). A declaration must appear before the function is ever called in the program, but the definition can appear anywhere. If you want to "combine" the declaration and definition, you can place the entire definition before the function is called anywhere in the code (you will no longer need a declaration)
-			* The declaration and definition of a function share the same header, but the declaration is always followed by a semicolon.
-    		* Important to decide whether it should return or print the result
-    		* Decide whether the function will take arguments or not
-			* If it does, place a list of the expected arguments in the parentheses that follow the function header
-			* EX: `int count( int one, int two, int three)`
-				* This is a function that takes three integer *arguments* and *returns* one integer value
-    		* Remember to use a semicolon after a list of function’s arguments when writing the function *declaration*
+		* The **declaration** is function’s return type, name and parameters. The **definition** is its implementation (code). 
+        * A declaration must appear before the function is ever called in the program, but the definition can appear anywhere outside of `main`. If you want to "combine" the declaration and definition, you can place the entire definition before the function is called anywhere in the code (you will no longer need a declaration)
+        * The declaration and definition of a function share the same header, but the declaration is always followed by a semicolon.
+        * Important to decide whether it should return or print the result (it should be a `void` function if it doesn't need to return anything)
+        * Decide whether the function will take input arguments or not
+        * If it does, place a list of the expected arguments in the parentheses that follow the function header
+        * EX: `int count( int one, int two, int three)`
+            * This is a function that takes three integer *arguments* and *returns* one integer value
+        * Remember to use a semicolon after a list of function’s arguments when writing the function *declaration*
    		* Functions can only access data inside its scope. If a variable uses some variable declared in another place, pass it as a parameter.
 
 * Command-Line Arguments:
