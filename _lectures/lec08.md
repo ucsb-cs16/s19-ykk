@@ -360,3 +360,114 @@ clean:
 make testDrawShapes
 ```
 
+
+
+# Code from Lecture
+
+We first looked at how to declare an array and output the values of an uninitialized array (notice the junk values!).
+
+```cpp
+// main.cpp
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const int SIZE = 20;
+    int arr[SIZE];
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "[" << i << "] ";
+        cout << arr[i] << endl;
+    }
+
+    cout << "Last element " << arr[SIZE] << endl;
+
+    return 0;
+}
+```
+
+
+We then asked the user to provide integer values that were stored in the array.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const int SIZE = 3;
+    int arr[SIZE];
+
+    cout << "Enter " << SIZE << " numbers.\n";
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "[" << i << "] ";
+        cin >> arr[i];
+    } //end for
+
+    cout << "Contents of the array\n";
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "[" << i << "] ";
+        cout << arr[i] << endl;
+    }
+
+    return 0;
+}
+```
+
+
+We tried to create a function to print the contents of the array. Interestingly, this code resulted in a compiler error (see below).
+
+```cpp
+// print_Arr.cpp
+#include <iostream>
+using namespace std;
+
+void print_arr(int array[], int arr_size);
+
+int main()
+{
+    const int SIZE = 3;
+    int arr[SIZE];
+
+    cout << "Enter " << SIZE << " numbers.\n";
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "[" << i << "] ";
+        cin >> arr[i];
+    } //end for
+
+    cout << "Increment the contents of the array\n";
+    print_аrr(аrr, SIZE);
+    for (int i =0; i < SIZE; i++)
+    {
+        //cout << arr[i] = arr[i] + 3 << endl;
+        arr[i] = arr[i] + 3;
+        cout << arr[i] << endl;
+    }
+
+
+    return 0;
+}
+void print_arr(int array[], int arr_size)
+{
+    for (int i = 0; i < arr_size; i++)
+    {
+        cout << "[" << i << "] ";
+        cout << array[i] << endl;
+    }
+}
+```
+
+The error we got was:
+
+```
+print_Arr.cpp:21:16: error: use of undeclared identifier 'аrr'
+    print_аrr(аrr, SIZE);
+```
+
+
