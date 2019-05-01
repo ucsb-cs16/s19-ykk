@@ -17,7 +17,7 @@ reading: Lecture notes; Section 7.1 up to p.388
 
 ## Declaring Arrays
 
-```
+```cpp
 int arr[10];
 ```
 
@@ -30,7 +30,7 @@ int arr[10];
 	* Initially, each cell is undefined (may contain junk data).
 		* Remember, it's important to explicitly initialize values in C++.
 
-```
+```cpp
 int arr[100];
 for (int i = 0; i < 100; i++) {
 	cout << arr[i] << endl;
@@ -41,7 +41,7 @@ for (int i = 0; i < 100; i++) {
 
 ## Example of reading / writing values from / to the array
 
-```
+```cpp
 arr[0] = 1;
 arr[1] = -5;
 arr[1] = arr[0]; // fetching and storing array values
@@ -50,7 +50,7 @@ arr[1] = arr[0]; // fetching and storing array values
 * For all practical purposes, an element in an array can be treated as a value whose type is what the array was defined as.
 * An example using `cin`:
 
-```
+```cpp
 int arr[10];
 cout << "Enter a number: ";
 cin >> arr[0];
@@ -59,7 +59,7 @@ cout << "arr[0] = " << arr[0] << endl;
 
 * An example using functions
 
-```
+```cpp
 void passArrayValueExample(int x) {
 	cout << “Parameter value: “ << x << endl;
 }
@@ -73,7 +73,7 @@ int main() {
 
 ## Example of iterating through the entire array
 
-```
+```cpp
 int arr[10];
 for (int i = 0; i < 10; i++) {
 	arr[i] = i; // initializes elements using i
@@ -103,7 +103,7 @@ cout << num << endl; // 7
 
 ## Example
 
-```
+```cpp
 ------------------------------------
 // drawShapes.h
 #include <string>
@@ -175,7 +175,7 @@ Similar to how we compile C++ programs with a single file, we can compile all so
 	* The Linker then takes these .o files and puts them together to form the actual executable.
 	* We can accomplish this as follows:
 
-```
+```bash
 g++ -c -o drawShapes.o drawShapes.cpp
 g++ -c -o program1.o program1.cpp
 g++ -o program1 program1.o drawShapes.o
@@ -275,7 +275,7 @@ make: `program1' is up to date.
 
 * We can define our testing functionality into `tdd.h` and `tdd.cpp`
 
-```
+```cpp
 ------------------------------------
 // tdd.h
 #include <string>
@@ -392,7 +392,10 @@ int main()
 
 We then asked the user to provide integer values that were stored in the array.
 
+**Update**: C++ does not allow a variable for the length of the array, and it turns out that in order for `g++` to tell you this, you need to use the `-pedantic` flag when you are compiling (try it yourself, remove `const` and use: `g++ -pedantic populate_arr.cpp`).
+
 ```cpp
+// populate_arr.cpp
 #include <iostream>
 using namespace std;
 
@@ -442,7 +445,7 @@ int main()
     } //end for
 
     cout << "Increment the contents of the array\n";
-    print_аrr(аrr, SIZE);
+    //print_аrr(аrr, SIZE);
     for (int i =0; i < SIZE; i++)
     {
         //cout << arr[i] = arr[i] + 3 << endl;
@@ -514,7 +517,7 @@ ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ```
 
-In order to successfully compile it, we need to also compile the **source file** for the functions is print.h:
+In order to successfully compile it, we need to also compile the **source file** for the functions in print.h:
 
 ```
 lec08 $ g++ testprint.cpp print.cpp
