@@ -420,7 +420,7 @@ int main()
 ```
 
 
-We tried to create a function to print the contents of the array. Interestingly, this code resulted in a compiler error (see below).
+We tried to create a function to print the contents of the array. Interestingly, this code resulted in a compiler error (`print_Arr.cpp:21:16: error: use of undeclared identifier 'аrr'`), which apparently was caused by the accidental keyboard/language switch: the `a` that's in the `arr` variable is from the Cyrilic alphabet, which is outside the expected ASCII range. Mystery solved! The code should compile and run for you (unless you copy it from here without fixing it first ;-)).
 
 ```cpp
 // print_Arr.cpp
@@ -463,11 +463,61 @@ void print_arr(int array[], int arr_size)
 }
 ```
 
-The error we got was:
+
+Lastly, we created a very simple setup using a header and a corresponding cpp file along with the main test program.
+
+The declaration
+
+```cpp
+// print.h
+#include <string>
+using namespace std;
+
+void print_smth(string text);
+```
+
+The definition
+
+```cpp
+print.cpp
+#include <iostream> // notice that you don't need to include print.h here
+using namespace std;
+
+void print_smth(string text)
+{
+    cout << text << endl;
+}
+```
+
+The test program
+
+```cpp
+// testprint.cpp
+
+#include <iostream>
+#include "print.h"
+
+int main()
+{
+    print_smth("Hello!");
+    return 0;
+}
+```
+
+If we try to compile only the test program, we will get a **linker error**:
+```
+g++ testprint.cpp
+Undefined symbols for architecture x86_64:
+  "print_smth(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in testprint-d213ed.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+```
+
+In order to successfully compile it, we need to also compile the **source file** for the functions is print.h:
 
 ```
-print_Arr.cpp:21:16: error: use of undeclared identifier 'аrr'
-    print_аrr(аrr, SIZE);
+lec08 $ g++ testprint.cpp print.cpp
+lec08 $ ./a.out
+Hello!
 ```
-
-
