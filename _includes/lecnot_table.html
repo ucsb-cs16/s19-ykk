@@ -1,3 +1,6 @@
+<h1><a href="https://drive.google.com/drive/folders/1zP7YNmZXCYnAP8MrEiaf1Ov28ESpXR0s?usp=sharing" target="_blank">Link to Lecture Slides</a></h1>
+
+<h2 id="lec">Lecture Notes:</h2>
 <table class="asn_table">
 
 <tr>
@@ -6,21 +9,16 @@
   <th class="asn_ready">ready?</th>
   <th class="asn_desc" >description</th>
   <th class="asn_reading" >reading</th>
-  <th class="asn_num" >slides before</th>
-  <th class="asn_num" >slides after</th>
 </tr>
 
 {% for lect in site.lectures %}
-
+ 
 <tr class={% if lect.ready %}"ready"{% else %}"not-ready"{% endif %} >
   <td class="lect_num" >{{lect.lecture_date}}</td>
-  <td class="lect_num" ><a href="{{lect.url | relative_url }}" data-ajax="false">{{ lect.num }}</a></td>
+  <td class="lect_num" ><a href="{{lect.url | relative_url }}">{{ lect.num }}</a></td>
   <td class="lect_ready">{{lect.ready}}</td>
   <td class="lect_desc" >{{lect.desc }}</td>
   <td class="lect_desc" >{{lect.reading }}</td>
-  <td class={% if lect.ready %}"lect_num"  ><a href="{{lect.pdfurl | relative_url }}" data-ajax="false">pdf</a>{% else %}"lect_num"  ><a href="" data-ajax="false"></a>{% endif %}</td>
-  <td class={% if lect.annotatedready %}"lect_num"  ><a href="{{lect.annotatedpdfurl | relative_url }}" data-ajax="false">Annotated pdf</a>{% else %}"lect_num"  ><a href="" data-ajax="false"></a>{% endif %}</td>
-
 </tr>
 
 {% if lect.last_before %}
