@@ -135,7 +135,15 @@ iframe { width: 100%; height: 1100px; overflow: scroll; }
   <img src="/s19-ykk/info/mentorPhotos/Keqian-Li.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3> Keqian Li (TA)</h3>
     Preferred Pronouns: He, Him, His<br/>
-  <i> "Hi, this is Keqian Li and I'm a 3rd year Computer Science Ph.D. student. I'm really excited to be the TA of CS 16, and hope we all had a great semester together! Seeing the rise of artificial intelligence (AI) based technology, I have now become a deep believer of deep learning, and is willing to see it transform our society day to days. In my spare time, I love to stay close to the ocean/ forest, travel to exotic countries, try out new food or just being Californian:) Reach out with any questions you have, and I will see you guys more in the lab, office hours, and lectures!
+  <i> "Hi, this is Keqian Li and I'm a 3rd year Computer Science Ph.D. student. I'm really excited to be the TA of CS 16, and hope we all had a great semester together! Seeing the rise of artificial intelligence (AI) based technology, I have now become a deep believer of deep learning, and is willing to see it transform our society day to days. In my spare time, I love to stay close to the ocean/ forest, travel to exotic countries, try out new food or just being Californian:) Reach out with any questions you have, and I will see you guys more in the lab, office hours, and lectures!</i>
+  </td>
+</tr>
+<tr>
+  <td>
+  <img src="/s19-ykk/info/mentorPhotos/Bryan-Terce.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <h3>Bryan Terce (Tutor)</h3>
+    Preferred Pronouns: He, Him, His<br/>
+  <i>"Hey! My name is Bryan Terce, and I'm a first-year CS major. It's my first quarter tutoring, and I'm ready to teach you the ins and outs of this beautiful monstrosity called C++. My job is to help you find the parts of C++ that you'll love and give you a better appreciation of why somebody thought the bad parts were a good idea. I also have a lot of experience working with AWS, React, and other Node.js apps, so feel free to reach out to me if you have any questions about those technologies (or anything else for that matter). Aside from schoolwork, you can find me sleeping, playing Splatoon, or working on side projects!"</i>
   </td>
 </tr>
 </table>
