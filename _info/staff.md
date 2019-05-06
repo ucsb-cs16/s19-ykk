@@ -140,7 +140,7 @@ iframe { width: 100%; height: 1100px; overflow: scroll; }
 </tr>
 <tr>
   <td>
-  <img src="/s19-ykk/info/mentorPhotos/Bryan-Terce.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
+  <img src="/s19-ykk/info/mentorPhotos/Bryan-T.jpg"  width="300px"  alt="" style="float: left; margin: 0px 10px 20px 10px;">
   <h3>Bryan Terce (Tutor)</h3>
     Preferred Pronouns: He, Him, His<br/>
   <i>"Hey! My name is Bryan Terce, and I'm a first-year CS major. It's my first quarter tutoring, and I'm ready to teach you the ins and outs of this beautiful monstrosity called C++. My job is to help you find the parts of C++ that you'll love and give you a better appreciation of why somebody thought the bad parts were a good idea. I also have a lot of experience working with AWS, React, and other Node.js apps, so feel free to reach out to me if you have any questions about those technologies (or anything else for that matter). Aside from schoolwork, you can find me sleeping, playing Splatoon, or working on side projects!"</i>
