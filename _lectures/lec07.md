@@ -201,5 +201,12 @@ int main()
 	return 0;
 }
 ```
-
-
+# Practice Questions
+1. What's another way to read input from an `ifstream` object, apart from using `>>`? Assume we have an `ifstream` object named `ifs`, and a `string` object named `my_line`.
+2. What is the output of the following code? Assume it's integrated as part of a working C++ program.
+```
+bool x = 129;
+bool y = false;
+cout << x << endl;
+cout << y << endl;
+```
