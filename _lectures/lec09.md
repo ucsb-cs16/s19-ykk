@@ -193,4 +193,15 @@ int main(){
    return 0;
 }
 ```
-2. Convert the decimal number 166 into hexadecimal and binary
+2. What does the following code print out? Assume it's part of a working C++ program
+```
+int x = 0;
+int& y = x;
+y = y + 20;
+x = x - 15;
+cout << x << endl;
+cout << y << endl;
+```
+3. Convert the decimal number 166 into hexadecimal and binary
+
+Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit
