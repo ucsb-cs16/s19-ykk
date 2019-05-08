@@ -285,4 +285,11 @@ return 0;
 * `//` denotes a single-line comment.
 * `/* */` denotes a multi-line comment.
 
-
+# Practice Questions
+1. Use what you know about Unix commands to accomplish the following, in order:
+* Print your current working directory
+* Create a file called `sample.txt` in your current directory
+* While in your current directory, create a folder in your home directory called `helloWorld`
+* Copy the file you just created, `sample.txt` into the home directory
+* Navigate to the folder you just created from the home directory from part 3
+* Move (not copy) `sample.txt` that's currently in the home directory from part 4
