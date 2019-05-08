@@ -15,17 +15,24 @@ Helpful online visualization of C++ programs (may help to understand pointers): 
   * Structs are a simple **data structure**
   * The member variables are initialized in curly braces (in the order they are listed in the struct).
 * **Example struct syntax:**
-`Struct Name{
+```
+struct Name{
     String first;
     String last;
-};`
+};
+```
 * **Remember the semicolon at the end of the struct definition!**
 * To access member variables, use the dot operator `.`
   * **EX:** 
-    `Name n = {"Harry", "Potter"};`
-   ` cout<< n.first; //prints "Harry"`
+  ```
+    Name n = {"Harry", "Potter"};
+    cout<< n.first; //prints "Harry"
+  ```
 * Accessing member variables allows you to print, compare, or change the values of those mem vars
 * If one of the member variables is also a struct, use the dot operator once more to access the member variables of that struct 
+
+## Diagrams
+* [Example visualization diagram](https://docs.google.com/presentation/d/1Y7J2i2WfoOc_WAclsPcGzsHJklG9aUkSVSchWySBCls/edit?usp=sharing)
 
 
 # Code from lecture
