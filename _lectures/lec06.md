@@ -168,7 +168,8 @@ int main()
     return 0;  // Make sure this is outside of the while loop, otherwise, the program will exit too soon
 }
 ```
-# Practice Questions	https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
+# Practice Questions
+https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
 1. Write a Makefile so that when we type `make hello`, the compiler will compile the file `main.cpp` into an executable named `program01`
 2. Write the following if/else-if/else chain as a switch statement
 ```
