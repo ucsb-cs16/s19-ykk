@@ -297,3 +297,5 @@ return 0;
 * Write a `g++` command where the executable `a.out` is produced
 * Write a `g++` command where the executable `quadratic` is produced
 3. What is another function of the Vim command `dd`, apart from deleting a single (or multiple) lines?
+
+Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
