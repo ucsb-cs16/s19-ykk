@@ -296,6 +296,8 @@ cout << y << endl;
 ```
 3. Exclusive-or (xor) is defined as the following on two boolean values:
 ```
-xor returns true if only one of the boolean values are true; which means, xor returns false if both the boolean values are false or both the boolean values are true
+xor returns true if only one of the boolean values are true; 
+which means, xor returns false if both the boolean values are false or both the boolean values are true
 ```
-Represent xor by using a combination of only !, &&, ||
+Write a C++ logical statement for two boolean values, x and y, 
+to represent xor by using a combination of only !, &&, ||
