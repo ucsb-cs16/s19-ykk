@@ -104,8 +104,7 @@ git push
 * Looking at the test code in initCoordinateTest.cpp figure out what the initCoordinate function is supposed to do and add preconditions and postconditions as comments to the start of that function. See page 275 of the book for more information on writing pre and post conditions.
 * Edit the `initCoordinate()` function in shapeFuncs.cpp to replace the stub with correct code.
 * Run `./initCoordinateTest` and see it pass.
-* Now reason about why your code works. **Draw a diagram** that shows the state of memory right before the `initCoordinate()` function returns when it is called for the very first time by the test code.  
-## Make the drawing on a piece of paper and show this to a tutor/TA to get checked off during your discussion session or open lab hours. Pointer diagrams will show up on midterm/final. 
+* Now reason about why your code works. **Draw a diagram** that shows the state of memory right before the `initCoordinate()` function returns when it is called for the very first time by the test code. Ask the TA/tutors for help if you get stuck.  
 
 * Run `./boxesApproxEqualTest` and see it fail.
 * Edit the `boxesApproxEqual()` function in shapeFuncs.cpp to replace the stub with correct code.  As you do, consider adding an `approxEqual` function that takes two double values into utility.h and utility.cpp, as this will make your coding job easier, and keep your code "DRYer".  Also, consider reusing the `coordinatesApproxEqual` function in your `boxesApproxEqual` solution.  Remember that the <code>&amp;&amp;</code> operator is the symbol for "logical and" in C++.
