@@ -367,3 +367,4 @@ int main(int argc, char* argv[]){
 	int x = argv[1];
 	cout << x * 2 << endl;
 }
+```
