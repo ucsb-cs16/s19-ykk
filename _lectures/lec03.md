@@ -301,3 +301,4 @@ which means, xor returns false if both the boolean values are false or both the 
 ```
 Write a C++ logical statement for two boolean values, x and y, 
 to represent xor by using a combination of only !, &&, ||
+Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
