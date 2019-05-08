@@ -280,3 +280,22 @@ Remember to practice syntax (include semicolons, pound signs, etc.).
 Observing in-class code is not sufficient, review the lab and textbook examples to practice programming and better prepare for quizzes and tests.
 When writing programs, try refine them to be more efficient (eliminate repetitive code when possible).
 
+# Practice Questions
+1. What is the following output of this code snippet? Assume it's implemented in a working C++ program.
+```
+int x;
+cout << x << endl;
+```
+2. What is the following output of this code snippet? Assume it's implemented in a working C++ program.
+```
+double y = 1.2;
+int x = 3.5 + 2.4 + y;
+y += x;
+cout << x << endl;
+cout << y << endl;
+```
+3. Exclusive-or (xor) is defined as the following on two boolean values:
+```
+xor returns true if only one of the boolean values are true; which means, xor returns false if both the boolean values are false or both the boolean values are true
+```
+Represent xor by using a combination of only !, &&, ||
