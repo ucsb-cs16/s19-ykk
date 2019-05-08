@@ -373,3 +373,12 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
+# Practice Questions
+1. Write the following `for` loop as a `while` loop. Assume the code snippet below is properly implemented in a working C++ program.
+```
+int x = 0;
+for(int i = 0; i < 10; i++){
+	x++;
+}
+```
+2. In what scenarios would you use a `do-while` loop?
