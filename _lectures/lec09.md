@@ -203,5 +203,3 @@ cout << x << endl;
 cout << y << endl;
 ```
 3. Convert the decimal number 166 into hexadecimal and binary
-
-Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit
