@@ -79,5 +79,3 @@ Later in the course we will learn more tricks to save time compiling. For a smal
 
 # Practice Questions
 1. What is firmware?
-
-Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
