@@ -172,15 +172,16 @@ int main()
 1. Write a Makefile so that when we type `make hello`, the compiler will compile the file `main.cpp` into an executable named `program01`
 2. Write the following if/else-if/else chain as a switch statement
 ```
-char grade;
-cin >> grade;
-if(grade == ‘A’)
-	cout << “Grade > 90%” << endl;
-else if(grade == ‘B’)
-	cout << “Grade > 80%” << endl;
-else if(grade == ‘C’)
-	cout << “Grade > 70%” << endl;
+char vimLetter;
+cin >> vimLetter;
+if(vimLetter == ‘x’)
+	cout << “Save and quit” << endl;
+else if(vimLetter == ‘i’)
+	cout << “Insert mode” << endl;
+else if(vimLetter == ‘q’)
+	cout << “Quit” << endl;
+else if(vimLetter == 'r')
+	cout << “Replace” << endl;
 else
-	cout << “Shamefur dispray” << endl; 
+	cout << "Other functionality" << endl;
 ```
-Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
