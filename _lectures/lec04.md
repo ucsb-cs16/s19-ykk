@@ -382,4 +382,3 @@ for(int i = 0; i < 20; i++){
 }
 ```
 2. In what scenarios would you use a `do-while` loop?
-Solutions: https://docs.google.com/document/d/1j_J25q3XOB1M-zgpy1zvIPQVa4p_hx_QuqUGg6EADpE/edit#
