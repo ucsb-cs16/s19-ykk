@@ -37,7 +37,7 @@ The ugly
 * Bugs in code that involves pointers can cause your program to irrecoverably crash (Segmentation fault)
 * Examples: dereferencing a null pointer, out of bound array access, dereferencing a pointer that has junk value.
 
-Quiz 4 on pointers
+[Quiz 4 to practice pointers and accessing structs through pointers](https://drive.google.com/open?id=1481_BYcHNRx7ewBVwoVCn-rUXhLe7MXX)
 
 
 # Practice with Pointers
