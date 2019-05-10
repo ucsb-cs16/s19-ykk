@@ -6,6 +6,42 @@ ready: true
 reading: "Section 9.1, 10.1" 
 ---
 
+### Announcement
+
+**HW02 will be released tonight and will be due on Gradescope on Monday, 5/13**. The goal of the homework is to change `initCoord` and `initBox` to use pass-by-reference (see Lec 10 notes) instead of pointers. We recommend doing the homework first, since this will allow you to focus on implementing the logic and functionality of the Lab05, without getting lost on the syntax. Note: there is no need for `*b` or `*coord` or `->` when passing the struct by reference.
+
+
+## Pointers
+
+* Pointer declaration - difference/similarities with declaring basic types
+* Accessing variables "indirectly" via pointers
+* The address and indirection operators: "&" and "*"
+* Differences between references and pointers; when and why to use each of these
+
+# The good, bad and ugly about pointers
+
+The good:
+
+* Pointers will allow us to dynamically create elements on the heap
+* Pointers allow arrays to be passed to functions efficiently
+* Pointers allow arrays of large structs to be traversed effiently
+
+The bad:
+
+* Pointers can only point to one type of data (not generic)
+* They don't automatically point - need to do some work
+* Syntax of pointer dereferencing requires paying attention
+
+The ugly
+
+* Bugs in code that involves pointers can cause your program to irrecoverably crash (Segmentation fault)
+* Examples: dereferencing a null pointer, out of bound array access, dereferencing a pointer that has junk value.
+
+Quiz 4 on pointers
+
+
+# Practice with Pointers
+
 
 Remember how we were able to get the memory address of any variable using the ampersand sign, when we passed the variable by reference?
 As it turns out, we can store those locations in something called _pointers_.
@@ -105,8 +141,10 @@ cout << "*p: " << *p << endl; //9
 ```
 
 
-Make sure this also makes sense and you understand when to use `&` and `*`, and what vaue each would provide.
+Make sure this also makes sense and you understand when to use `&` and `*`, and what value each would provide.
 
+
+# Next time
 
 ## Pointers and arrays
 
