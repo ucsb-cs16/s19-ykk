@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
+  <head>
+    {% include head.html %}
+    <title>{{ page.num }} - {{ page.desc }} - {{course}}</title>
+  </head>
+  <body id="page-top">
+    <div class="container">
+      {% include nav.html %}
+        <div id="content"  class="ui-content">
+        <h1>{{page.num}}: {{ page.desc }}</h1>
+
+	  <table class="asn_table">
+	    <tr>
+	      <th class="asn_ready">ready?</th>
+	      <th class="asn_date" >assigned</th>
+	      <th class="asn_date" >due</th>
+	      <!--<th class="asn_date" >points</th>-->
+	    </tr>
+	    <tr class={% if page.ready %}"ready"{% else %}"not-ready"{% endif %}>
+	      <td class="asn_ready">{{page.ready}}</td>
+	      <td class="asn_date" >{{page.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
+	      <td class="asn_date" >{{page.due | date: "%a %m/%d %I:%M%p" }}</td>
+	      <!--<td class="pointCount"></td>-->
+	    </tr>
+	   </table>
+          {{ content }}
+        </div><!-- content -->
+          {% include footer.html %}
+      </div><!-- container -->
+  </body>
+</html>
