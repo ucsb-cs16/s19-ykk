@@ -76,3 +76,6 @@ Therefore, you end up with 3 parts of creating a program in C++:
 3. Running: executing the binary version of the code on the computer
 
 Later in the course we will learn more tricks to save time compiling. For a small program, re-compiling may take a small amount of time, but for large programs, anything we can optimize will speed up the compile time, e.g., only re-compiling the files we changed.
+
+# Practice Questions
+1. What is firmware?

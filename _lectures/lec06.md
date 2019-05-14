@@ -168,3 +168,20 @@ int main()
     return 0;  // Make sure this is outside of the while loop, otherwise, the program will exit too soon
 }
 ```
+# Practice Questions
+1. Write a Makefile so that when we type `make hello`, the compiler will compile the file `main.cpp` into an executable named `program01`
+2. Write the following if/else-if/else chain as a switch statement
+```
+char vimLetter;
+cin >> vimLetter;
+if(vimLetter == ‘x’)
+	cout << “Save and quit” << endl;
+else if(vimLetter == ‘i’)
+	cout << “Insert mode” << endl;
+else if(vimLetter == ‘q’)
+	cout << “Quit” << endl;
+else if(vimLetter == 'r')
+	cout << “Replace” << endl;
+else
+	cout << "Other functionality" << endl;
+```

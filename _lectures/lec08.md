@@ -524,3 +524,7 @@ lec08 $ g++ testprint.cpp print.cpp
 lec08 $ ./a.out
 Hello!
 ```
+# Practice Questions
+1. Given an int array of size 10, write a void function called `convertNegative` that counts then returns the number of negative numbers, and turns all negative numbers in the array into `0`.
+2. Since in the C++ build process, each file is compiled into an object file, why aren't object files created when programs are compiled with the `-o` flag?
+3. What happens if you declare an integer array, and initialize only 1 value?

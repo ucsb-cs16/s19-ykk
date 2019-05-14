@@ -180,4 +180,26 @@ void swap(int val1, int val2)
   * Memory addresses are *hex values*
   * You will be using hexadecimals when you assign pointers.
   
-
+# Practice Questions
+1. What does the following code print out?
+```
+void foo(int& x){
+   x++;
+}
+int main(){
+   int a = 5;
+   foo(a);
+   cout << a << endl;
+   return 0;
+}
+```
+2. What does the following code print out? Assume it's part of a working C++ program
+```
+int x = 0;
+int& y = x;
+y = y + 20;
+x = x - 15;
+cout << x << endl;
+cout << y << endl;
+```
+3. Convert the decimal number 166 into hexadecimal and binary

@@ -355,3 +355,16 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
+# Practice Questions
+1. Can you have return statements in a void function?
+2. Create a function named `root` that accepts 3 inputs of type `double` as parameters, and returns a `double`, based on the following conditions:
+* Pre-condition: There are 3 input parameters, all 3 of type `double`, that represents as `a`, `b`, `c` from a quadratic equation. 
+* Post-condition: Returns ONE OF THE solutions from the quadratic formula. The function prints an error message if there are no real roots, and exits.
+* Assume the `cmath` library from the C++ Standard Libraray is available for you.
+3. What's wrong with the following code?
+```
+int main(int argc, char* argv[]){
+	int x = argv[1];
+	cout << x * 2 << endl;
+}
+```
