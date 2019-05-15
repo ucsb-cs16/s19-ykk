@@ -71,8 +71,42 @@ There is only one file that you need to edit this week:
 
 * <code>moreArrayFuncs.cpp</code> contains more functions that deal with arrays.  These are in addition to the arrayFuncs.cpp that you worked with before in lab04.
 
+### Step 4b: Add the file header
 
-### Step 4b: Work on the array functions
+Include the following header block at the top of your <code>moreArrayFuncs.cpp</code> file and make sure to update it accordingly:
+
+```
+/*=============================================================================
+ |   Assignment:  ASSIGNMENT NUMBER AND TITLE
+ |
+ |       Author:  STUDENT'S NAME HERE
+ |
+ |   To Compile:  EXPLAIN HOW TO COMPILE THIS PROGRAM
+ |
+ |        Class:  NAME AND QUARTER OF THE CLASS FOR WHICH THIS PROGRAM WAS
+ |                      WRITTEN
+ |     Due Date:  DATE AND TIME THAT THIS PROGRAM IS/WAS DUE TO BE SUBMITTED
+ |
+ +-----------------------------------------------------------------------------
+ |
+ |  Description:  DESCRIBE THE PROBLEM THAT THIS PROGRAM WAS WRITTEN TO SOLVE.
+ |
+ |        Input:  DESCRIBE THE INPUT THAT THE PROGRAM REQUIRES.
+ |
+ |       Output:  DESCRIBE THE OUTPUT THAT THE PROGRAM PRODUCES.
+ |
+ |    Algorithm:  OUTLINE THE APPROACH USED BY THE PROGRAM TO SOLVE THE
+ |      PROBLEM.
+ |
+ |   Known Bugs:  IF THE PROGRAM DOES NOT FUNCTION CORRECTLY IN SOME
+ |      SITUATIONS, DESCRIBE THE SITUATIONS AND PROBLEMS HERE.
+ |
+ *===========================================================================*/
+
+```
+
+
+### Step 4c: Work on the array functions
 
 There are 9 functions you will need to write for this lab:
 
