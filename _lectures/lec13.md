@@ -129,6 +129,14 @@ A dynamic array is just an array on the heap - they are different from regular a
 
 Arrays aren’t good for everything!
 
+
+* The performance of certain functionality with data structures largely depends on how the data is organized under-the-hood.
+* On a high-level, arrays and linked lists are conceptually the same.
+	* However, depending on what kind of operations performed on the data structure, performance may greatly differ. For example,
+		* inserting to the front of a singly-linked linked list is much faster than inserting to the front of an array.
+		* directly accessing an element in an array is much faster than directly accessing an element in a linked list.
+
+
 ### Structure of linked lists
 
 * Nodes are not next to one another in memory and are only connected to each other by pointers.
@@ -147,6 +155,7 @@ It turns out you can traverse through linked lists pretty easily!
 * `for` loops or `while` loops will be super useful here!
 
 
+### Toy example to illustrate linked lists
 ```cpp
 #include <iostream>
 using namespace std;
@@ -177,13 +186,168 @@ int main()
     two->next = three;
     three->next = NULL;
 
-    LinkedList *l = new LinkedList;
-    l->head = one;
-    l->tail = three;
+    LinkedList *list = new LinkedList;
+    list->head = one;
+    list->tail = three;
 
     return 0;
 }
 ```
+
+
+
+#### Example of "walking down" a linked list
+
+* Assume we have a linked list with the following nodes:
+
+```
+[10]->[20]->[30]->null
+```
+
+* We can walk down the collection and visit every node by using each Node's next pointer as long as the next pointer != NULL.
+
+```
+cout << list->head->data << endl; // 10
+cout << list->head->next->data << endl; // 20
+cout << list->head->next->next->data << endl; // 30
+cout << list->head->next->next->next->data << endl; // seg fault!
+```
+
+
+
+
+
+# Linked List Implementation
+
+```cpp
+// LinkedList.h
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
+
+struct Node {
+	int data;
+	Node* next;
+};
+
+struct LinkedList {
+	Node* head;
+	Node* tail;
+};
+
+void printList(LinkedList* list);
+void insertToFront(LinkedList* list, int value);
+bool exists(LinkedList* list, int value);
+int length(LinkedList* list);
+void deleteIndex(LinkedList* list, int index);
+
+#endif
+--------------
+// LinkedList.cpp
+#include <iostream>
+#include "linkedList.h"
+using namespace std;
+
+void printList(LinkedList* list) {
+	for (Node* i = list->head; i != NULL; i = i->next) {
+		cout << "[" << i->data << "]->";
+	}
+	cout << "null" << endl;
+}
+
+void insertToFront(LinkedList* list, int value) {
+	// STUB	
+	
+	/*
+* Order of pointer reassignment matters since we always want to make sure we don't "lose" the address of something we need on the heap.
+
+1. Create new node to insert
+2. Assign new node's next pointer to the current list's head.
+3. Reassign the list's head to the new node.	
+	*/
+	return;
+}
+
+bool exists(LinkedList* list, int value) {
+	for (Node* i = list->head; i != NULL; i = i->next) {
+		if (i->data == value)
+			return true;
+	}
+	return false;
+}
+
+int length(LinkedList* list) {
+	int counter = 0;
+	// let's use a while loop instead of a for...
+	Node* temp = list->head;
+	while (temp != 0) {
+		counter++;
+		temp = temp->next;
+	}
+	return counter;
+}
+
+void deleteIndex(LinkedList* list, int index) {
+	// STUB	
+	
+	/*
+Case 1: Remove first element
+
+1. Reassign list head to list head's next pointer.
+2. delete first element.
+
+Case 2: Remove middle element
+
+1. Reassign previous node's next pointer to current node's next pointer.
+2. delete current node.
+
+Case 3: Remove last element
+
+1. Set previous node's next pointer to NULL.
+2. Reassign list's tail pointer to previous node.
+3. delete current node.
+	*/
+	return;
+}
+----------
+// main.cpp
+#include <iostream>
+#include <string>
+#include <fstream>
+#include "linkedList.h"
+
+using namespace std;
+
+int main() {
+	LinkedList* list = new LinkedList;
+	list->head = 0;
+	list->tail = 0;
+
+	cout << length(list) << endl;
+
+	insertToFront(list, 10);
+	cout << length(list) << endl;
+	insertToFront(list, 20);
+	insertToFront(list, 30);
+	printList(list);			// 30->20->10
+
+	cout << exists(list, 15) << endl; 	// 0
+	cout << exists(list, 30) << endl; 	// 1
+	cout << exists(list, -1) << endl; 	// 0
+
+	cout << length(list) << endl;		// 3
+
+	deleteIndex(list, -1); 			// err
+	deleteIndex(list, 5);			// err
+	deleteIndex(list, 3);			// err
+	deleteIndex(list, 2);			// OK!
+	printList(list);			// 30->20->null
+
+	return 0;
+}
+----------
+$ g++ -o main main.cpp LinkedList.cpp
+```
+
 
 
 We will continue talking about Linked Lists in the next lectures.
