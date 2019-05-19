@@ -170,11 +170,37 @@ Note that when you run the above code, you will get different values, because th
   * The size of one integer is 4 bytes, so the second element is at location 0x2a8c64d78a18.
   * The third element of arr is at location 0x2a8c64d78a1c (hexadecimal addition: 18 -> 19 -> 1a -> 1b -> 1c)
 
-* Final notes on pointers:
+## Important Facts About pointers:
+
   * When pointers are **declared**, they hold **junk values**. Defererencing such pointers (i.e., using `*`) is dangerous, because their values are not properly initialized, which means that they do not hold a valid memory location. It might, depending on what's inside, tamper with your data, or attempt to reach something that the pointer doesn't have access to, causing a segmentation fault.
   * The best solution is to always initialize your pointer to `NULL` (`int* p = NULL;` which is the same as `int* p = 0;` but `NULL` is preferred to make it unambiguous that you are working with a pointer.)
   * Pointers are used to travel to a different world called "heap"
   * We will be using pointers a lot, so it is important that you are comfortable switching between using *the value* stored in the pointer vs the value/variable *stored at the location* that is stored in the pointer.
+  * One thing about setting a pointer `NULL` is that dereferencing it would cause a segmentation fault, so always beware when dereferencing a pointer, and make sure it's not `NULL`
+  
+## Heap
+
+Memory can be allocated in 2 ways, on the stack or the heap. On the stack, memory is automatically managed; any variables that are no longer in use (based on its scope) is automatically deallocated. However, memory on the stack is static, which means the compiler must know how much memory to allocate at compile time.
+
+This can cause problems if you try to create objects on the memory as the program progresses.
+
+Memory on the heap on the other hand is dynamically allocated. This means that the heap can allow an unknown amount of memory to be used. Because the heap memory is dynamically allocated, memory needs to be manually allocated and deallocated.
+
+To allocate memory on the heap, use the `new` keyword.
+
+To deallocate memory on the heap, use the `delete` keyword (or `delete[]` for arrays).
+
+One really important point about objects declared on the heap: unlike memory on the stack, that has a name, objects allocate on the heap doesn't necessary have a name, they only have a pointer pointing to that memory on the heap. (See memory leaks on the next lecture about why we want to deallocate memory on the heap).
+
+Example:
+```
+//Assume everything has been properly declared
+
+int *x = new int(5);    //line 1:   declares an integer object with value 5 on the heap
+cout << *x << endl;     //line 2:   dereference the pointer, and print the value that x is pointing to, which should print 5
+delete x;               //line 3:   deallocate the memory on the heap
+
+```
 
 ## Final notes
 
