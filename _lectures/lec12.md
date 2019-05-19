@@ -1,9 +1,9 @@
 ---
 num: "lect12"
-lecture_date: 2019-05-09
-desc: 
+lecture_date: 2019-05-14
+desc: "Dynamic Arrays"
 ready: false
-pdfurl: 
+reading: Section 9.2
 ---
 
 
@@ -11,7 +11,7 @@ pdfurl:
 
 There are 3 different ways to pass a variable into a function
 
-Let's look at how we could implement initBox() that takes a box and initializes its member variables to 0.
+Let's look at how we could implement `initBox()` that takes a box and initializes its member variables to 0.
 
 * Pass by value -- `void initBox(Box b)`
 
@@ -20,12 +20,12 @@ The local copy is lost after the function returns.
 
 * Pass by reference -- `void initBox(Box& b)`
 
-A reference (nickname) to an object is created. Memory management is highly efficient. Any changes to a local reference are applied to the original object as well. **Arrays are always passed by reference.**
+A reference (nickname/alias) to an object is created. Memory management is highly efficient. Any changes to a local reference are applied to the original object as well. **Arrays are always passed by reference.**
 
 * Pass by address (also called bass by pointer) -- `void initBox(Box* b)`
 
 A pointer is created, which allows us to access the original object **through dereferencing**. Memory management is highly efficient.
-If a box has a `width` member variable, access it either by `(*b).width` or `b->width`.
+If a box has a `width` member variable, access it either by `(*b).width` or `b->width`. The arrow operator `->` combines dereferencing and the dot operator and **_provides access of the members of a struct_**.
 
 
 * A reminder about the asterisk operator (`*`)
@@ -40,6 +40,11 @@ char c = 'a';
 ch = &c;
 *ch = 'b' // c now holds a 'b' inside.
 ```
+
+>   How do we visually represent this?
+
+Use a handy website http://pythontutor.com/cpp.html#mode=edit to see the code in action.
+
 
 ### Pointers 
 
@@ -69,9 +74,9 @@ cout << *p << endl; //80
 
 __This is very important__
 * When you access `p`, you access **the memory address** stored in `p`
-* When you access `*p`, you access **the value** stored **at the memory address** that is in `p` (the value stored in the variable whose memory location is stored in `p`).
+* When you access `*p`, you access **the variable** stored **at the memory address** that is in `p`.
 
-This process of getting the value stored in memory, which is pointed to by the address stored inside a pointer, is called **_dereferencing_ a pointer**.
+This process of getting the variable stored in memory, which is pointed to by the address stored inside a pointer, is called **_dereferencing_ a pointer**.
 
 Look at the last example with `a` and `p`.
 `*p` is equivalent to `a`.
@@ -144,7 +149,7 @@ Make sure this also makes sense and you understand when to use `&` and `*`, and 
 ## Pointers and arrays
 
 When we learned about arrays, we promised to come back to them once we've leanred about pointers. Here we are.
-The variable declared as an array is actually just a pointer to the first element.
+The variable declared as an array is actually just **a pointer to the first element**.
 ```cpp
 int arr[] = {5,4,3}; // arr points to the first element (currently 5)
 cout << arr << endl; //0x2a8c64d78a14
@@ -152,10 +157,10 @@ cout << &(arr[0]) << endl; // same as `arr`, 0x2a8c64d78a14
 ```
 Note that when you run the above code, you will get different values, because the compiler will assign variables to different memory locations.
 
-* To get *the first element* of the array, we would type arr[0];
-  * This is equivalent to *arr
-* To get *the second element*, we would type arr[1];
-  * This is equivalent to *(arr+1)
+* To get *the first element* of the array, we would type `arr[0]`
+  * This is equivalent to `*arr`
+* To get *the second element*, we would type `arr[1]`
+  * This is equivalent to `*(arr+1)`
   * This is what is called **pointer arithmetic**, and it is used to get to other locations around the given starting point.
 * When we learned about arrays, we said that it was important that all elements in an array were adjacent in memory. This is why: only in this case using pointer arithmetic helps us traverse through an array. 
 
@@ -166,17 +171,77 @@ Note that when you run the above code, you will get different values, because th
   * The third element of arr is at location 0x2a8c64d78a1c (hexadecimal addition: 18 -> 19 -> 1a -> 1b -> 1c)
 
 * Final notes on pointers:
-  * When pointers are **declared**, they hold **junk values**. Defererencing (i.e., using `*`) such pointers is dangerous, because their values are not properly initialized, which means that they do not hold the valid memory location. It might, depending on what's inside, tamper with your data, or attempt to reach something that the pointer doesn't have access to, causing a segmentation fault.
-  * The best solution is to always initialize your pointer to `NULL` (`int* p = NULL;` or `int* p = 0;`)
-  * Pointers are used to travel to a different world called "heap" that we are going to talk about later in the course.
-  * We will be using pointers a lot, so it is important that you are comfortable switching between using *the value* stored in the pointer vs the value *stored at the location* that is stored in the pointer.
+  * When pointers are **declared**, they hold **junk values**. Defererencing such pointers (i.e., using `*`) is dangerous, because their values are not properly initialized, which means that they do not hold a valid memory location. It might, depending on what's inside, tamper with your data, or attempt to reach something that the pointer doesn't have access to, causing a segmentation fault.
+  * The best solution is to always initialize your pointer to `NULL` (`int* p = NULL;` which is the same as `int* p = 0;` but `NULL` is preferred to make it unambiguous that you are working with a pointer.)
+  * Pointers are used to travel to a different world called "heap"
+  * We will be using pointers a lot, so it is important that you are comfortable switching between using *the value* stored in the pointer vs the value/variable *stored at the location* that is stored in the pointer.
 
 ## Final notes
 
 Pointers and references are confusing! They are arguably the hardest topic of the course, and are used a lot in C++.
-They are not intuitive, and may not make sense at first. That's okay. We will be using them a lot, and it will get better. Use the resourses you have, including these notes and slides, and ask for help. Don't wait until the week of the midterm.
+They are not intuitive, and may not make sense at first. That's okay. We will be using them a lot, and it will get better. Use the resourses you have and ask for help. Don't wait until the week of the midterm.
 
 **Key concepts**:
 * A **pointer stores a memory address** (represented by a hexadecimal value). 
 * To access an address/reference, use the ampersand `&`
-* To **dereference a pointer** use an asterisk `*`; doing so will access **the value** stored **at the memory address** that is stored by the pointer
+* To **dereference a pointer** use an asterisk `*`; doing so will access **the variable** stored **at the memory address** that is stored by the pointer
+
+
+### Code from Lecture
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+  
+    double* iptr = NULL;
+    double val = 42;
+    double arr[5] = {5,4,3}; // arr points to the first element (currently 5)
+    cout << arr << endl; //0x2a8c64d78a14
+    cout << &(arr[0]) << endl;
+
+    iptr = &val;
+
+    iptr = arr;
+    for (int i=0; i < 5; i++)
+    {
+      //arr[i] = 2*i;
+      //cout << arr[i] << endl;
+      
+      //*(iptr+i) = 2*i;   // not changing the location of the pointer
+      
+      iptr = iptr + i;  // changes the location of the pointer
+      *iptr = 2*i;
+      cout << iptr + i << endl;
+    }
+
+  return 0;
+}
+
+
+/* The example below started as a pointer to a double,
+    hence the name dptr, and evolved to be a pointer to
+    a Box variable. */
+
+#include<iostream>
+using namespace std;
+
+struct Box {
+  int x;
+  int y;
+};
+
+int main() {
+  
+    Box* dptr = NULL;
+
+    dptr = new Box;
+    (*dptr).x = 42;
+    dptr->y = 16;
+
+    //delete [] dptr;  // how to delete arrays
+
+  return 0;
+}
+```
