@@ -42,6 +42,23 @@ linkedList.h         recLinkedListFuncs.h    tddFuncs.cpp
 
 In this lab **you** will write two functions that are specified in strFuncs.h and two functions that are specified in recLinkedListFuncs.h. You must implement these functions in strFuncs.cpp and recLinkedListFuncs.cpp. You must follow the instructions carefully. It is not enough to pass the gradescope check as the instructor and the TAs *will* be checking your submitted program files for style.
 
+Before you begin, include the following header block **at the top of each file** and make sure to update it accordingly:
+
+```
+/*=============================================================================
+ |   Assignment:  ASSIGNMENT NUMBER AND TITLE
+ |
+ |       Author:  STUDENT'S NAME HERE
+ |
+ |   To Compile:  EXPLAIN HOW TO COMPILE THIS PROGRAM
+ |
+ |        Class:  NAME AND QUARTER OF THE CLASS FOR WHICH THIS PROGRAM WAS
+ |                      WRITTEN
+ |     Due Date:  DATE AND TIME THAT THIS PROGRAM IS/WAS DUE TO BE SUBMITTED
+ |
+ *===========================================================================*/
+
+```
 
 ## Program to find if two strings are anagrams
 Two strings are anagrams if the letters can be rearranged to form each other. For example, “Eleven plus two” is an anagram of “Twelve plus one”. Each string contains one “v”, three “e’s”, two “l’s”, etc. Similarly "Rats and Mice" and "in cat's dream" are anagrams of each other.
