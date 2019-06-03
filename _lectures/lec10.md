@@ -210,3 +210,31 @@ int main()
 }
 ```
 
+## Practice Questions
+1. Write the function modifyCourse so that the following program outputs ```CS 16 5 John Doe```
+```
+struct Student
+{
+ string firstName;
+ string lastName;
+};
+
+struct Course
+{
+ string courseName;
+ int unit;
+ Student s1;
+};
+
+int main()
+{
+ Course c1;
+ c1.unit = 5;
+ c1.courseName = "CS 8";
+ modifyCourse(c1, "CS16", 4, "John", "Doe");
+ cout << c2.courseName << " " << c2.unit << " " << c1.s1.firstName << " " << c1.s1.lastName << endl;
+ return 0;
+}
+```
+
+2. Design a struct to represent a club at UCSB. Assume that every club needs a name, bank account, and a student president; you are allowed to use any structs defined in the previous question.

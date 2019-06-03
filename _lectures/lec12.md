@@ -2,7 +2,7 @@
 num: "lect12"
 lecture_date: 2019-05-14
 desc: "Dynamic Arrays"
-ready: false
+ready: true
 reading: Section 9.2
 ---
 
@@ -271,3 +271,51 @@ int main() {
   return 0;
 }
 ```
+
+# Practice Questions
+1. What does the following code print? Assume ```arr``` has an address of 0x2a8c64d78a14
+```
+int main() {
+    int arr[] = {3,4,5};
+    cout << *arr << endl;
+    cout << *(arr+1) << endl;
+    cout << arr << endl;
+    cout << (arr+2) << endl;
+    return 0;
+}
+```
+2. What does the following code print out? Assume ```x``` has an address of 0x2a8c64d78a0a
+```
+int main() {
+    int x = 4;
+    int * pointer = &x;
+    int * pointer2 = pointer;
+    *pointer = 8;
+    cout << x << endl;
+    cout << pointer << endl;
+    cout << *pointer << endl;
+    cout << *pointer2 << endl;
+    return 0;
+}
+```
+3. What does the following code print out?
+```
+int main() {
+    int a = 40;
+    int * pointer = &a;
+    if (p == &a)
+	    cout << “true” << endl;
+    else
+	    cout << “false” << endl;
+
+    return 0;
+}
+```
+
+## Conceptual questions:
+1. What do pointers specifically store?
+2. Can pointers store any data type? If not, explain.
+3. Can you initialize a pointer to 0 and what does that represent?
+4. What happens if you declare a pointer w/o initialization and dereference it?
+5. Compare/Contrast Pass by value vs Pass by reference vs Pass by address (also called pass by pointer)
+6. Is an array that you declared a pointer? If so, what does it point to?
