@@ -186,3 +186,30 @@ They are not intuitive, and may not make sense at first. That's okay. We will be
 * To access an address/reference, use the ampersand `&`
 * To **dereference a pointer** use an asterisk `*`; doing so will access **the variable** stored **at the memory address** that is stored by the pointer
 
+## Practice Questions
+1. What type of value gets printed for each line in the following code when it gets called?
+```
+void print_pointers(string* str1)
+{
+    cout << "str1: " << str1 << endl;
+    cout << "*str1: " << *str1 << endl;
+    cout << "&str1: " << &str1 << endl;
+}
+```
+2. What is the output of the following program?
+```
+int main()
+{
+    int a = 10;
+    int *b = &a;
+    int c = a;
+    
+    cout << “b is: “ << *b << endl;
+    cout << “c is: “ << c << endl;
+    a += 20;
+    cout << “b is: “ << *b << endl;
+    cout << “c is: “ << c << endl;
+
+    return 0;
+}
+```
