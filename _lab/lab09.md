@@ -186,7 +186,7 @@ If you are logged in remotely, you can log out using the exit command:
 
     * (5 pts) All files have good programming style, including proper use of indentation, reasonable choices for variable names, readable code, reasonable use of whitespace, and other good programming practices. You must use curly braces in the body of all control structures (if-else, for and while) even if they contain a single statement. You should not mix tabs and spaces when indenting your code. *The first line of every file should be the name of your file, followed by date of creation, author and a brief description of the program.*
 
-* TDD files (100 pts)
+* Code (100 pts)
 
     * The repo included the necessary .h, .cpp, **projectXTest.cpp** and the input files (if applicable). 
     * The Makefile successfully executes `make tests` and displays the results.
