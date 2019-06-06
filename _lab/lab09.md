@@ -101,7 +101,14 @@ It's time to select and implement your project!
 
 In many races competitors wear an RFID tag on their shoe or bib. When the racer crosses a sensor a computer logs the racer's number along with the current time. Sensors can be placed along the course to accurately calculate the racer's finish time or pace and also to verify that the racer crossed key checkpoints. Consider such a system in use for a half marathon running race, which is 13.1 miles. In this problem there are only three sensors: at the start, at the 7 mile point, and at the finish line.
 
-Here is sample data for three racers. The first line is the real start time in the 24 hour time format (HH MM SS). The real start time is when the race begins. Subsequent lines are recorded by sensors and contain the sensor ID (`0=start, 1=midpoint, 2=finish`) followed by the racer's number followed by the timestamp. Their start time may be different than the real start time because sometimes it takes a racer a little while to get to the starting line when there is a large pack.
+Below is sample data for three racers. 
+* The first line is a timestamp of when the the race began.
+* The other lines in the file are in the format `<sensor>,<racer number>,<timestamp>` where
+   * `<sensor>` is the ID of the sensor that recorded the data  (`0=start, 1=midpoint, 2=finish`),
+   * `<racer number>` is the ID of the racer, and 
+   * `<timestamp>` is the timestamp of when the racer was detected by the sensor. (Note that a racer's start time may be different than the real start time because sometimes it takes a racer a little while to get to the starting line when there is a large pack.)
+
+All timestamps are in the 24 hour time format (`HH MM SS`). 
 
     08 00 00
     0,100,08 00 00
