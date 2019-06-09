@@ -1,7 +1,7 @@
 ---
 num: "lect14"
-lecture_date: 2019-05-16
+lecture_date: 2019-05-21
 desc: 
 ready: false
-pdfurl: 
+reading: 
 ---
