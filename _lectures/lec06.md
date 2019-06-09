@@ -2,6 +2,7 @@
 num: "lect06"
 lecture_date: 2019-04-18
 desc: "Loops, switch, functions + makefile"
+reading: Chapter 3 + notes
 ready: true
 ---
 
@@ -66,18 +67,18 @@ void print_star_while( int n )
 ```
 
 To trace though the code above, we used the following notes to count the values of the variables:
-    j = 0   i = 0
-    j = 0   i = 1
-    ..
-    j = 0   i = 4
-    j = 2   i = 0
-    j = 2   i = 1
-    ...
-    j = 2   i = 4
-    j = 4   i = 0
-    ...
-    j = 4   i = 4
-    j = 6
+	j = 0   i = 0
+	j = 0   i = 1
+	...
+	j = 0   i = 4
+	j = 2   i = 0
+	j = 2   i = 1
+	...
+	j = 2   i = 4
+	j = 4   i = 0
+	...
+	j = 4   i = 4
+	j = 6
 
 We wrapped up this example by writing a very simple Makefile for compiling and removing our `print_star` executable:
 
@@ -86,19 +87,25 @@ print_s: main.cpp
 	g++ main.cpp -o print_star
 
 clean:
-	rm -f print_star *.out
+	rm -f print_star *.out *.o
 ```
 
-To use this makefile, we can now type `make`, which by default always builds the first target in the makefile (in our case, it would be `print_s`).
-`make clean` will find the `clean` target and execute its command, which would remove the executable and any `.out` files in the directory.
+To use this makefile, we can now type `make`, which by default always builds **the first target** in the makefile (in our case, it would be `print_s`).
+`make clean` will find the `clean` target and execute its command, which would remove the executable and any `.out` or `.o` files in the directory.
 
 In general, a makefile rule has this structure:
 
-    target_name: dependency_1 dependency_2 …
+    target_name: dependency_1 dependency_2 ...
         command_to_make_target_1
         command2
 
+
+You can find a detailed walkthrough and explanation of makefiles on this page: 
+<https://ucsb-cs16.github.io/topics/makefile/>.
+
 -------
+
+### Switch statements
 
 We then looked at how to write a `switch` statement and what happens when you don't include a `break` inside the `case` statements.
 
@@ -168,9 +175,12 @@ int main()
     return 0;  // Make sure this is outside of the while loop, otherwise, the program will exit too soon
 }
 ```
+
 # Practice Questions
+
 1. Write a Makefile so that when we type `make hello`, the compiler will compile the file `main.cpp` into an executable named `program01`
-2. Write the following if/else-if/else chain as a switch statement
+
+2. Write the following if/else-if/else chain as a switch statement:
 ```
 char vimLetter;
 cin >> vimLetter;
