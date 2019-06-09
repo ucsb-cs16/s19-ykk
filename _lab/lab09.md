@@ -160,6 +160,8 @@ In order to not have to look at the output of the 100 attempts, to assess whethe
 Write a function that takes a string parameter containing the time. This function should convert the time into a four-digit military time based on a 24-hour clock. For example,"`1:10 AM`" would output "`0110 hours`", "`11:30 PM`" would output "`2330 hours`", and "`12:15 AM`" would output "`0015 hours`". Adding a period inside AM or PM (e.g., "`9 A.M.`") should also be accepted.
 The function should return the resulting time as a string. Be sure to not include any whitespace in the resulting string.
 
+**Update**: Since the instructions specify that there shouldn't be any whitespace in the resulting string **do not include ` hours`** in the resulting string. Also, "`9:30 A.M.`" and "`09:30 A.M.`" should result in the same output (what other equivalences would you need?).
+
 -----
 
 
