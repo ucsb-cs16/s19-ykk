@@ -7,9 +7,9 @@ remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 suppress_footer: true
 
 name: "CS 16 Spring 2019 Kharitonova"
-github_url: https://github.com/ucsb-cs16/s19-ykk/
+github_url: https://github.com/ucsb-cs16/s19-ykk
 baseurl: "/s19-ykk"
-url: "https://ucsb-cs16.github.io/s19-ykk/"
+url: "https://ucsb-cs16.github.io/s19-ykk"
 github_org_name: ucsb-cs16-s19-ykk
 github_org_url: https://github.com/ucsb-cs16-s19-ykk
 slides_url: "https://drive.google.com/drive/folders/1qG48RYFvB7VVEU7yP3eCkG8KRVA9KtYw?usp=sharing"
